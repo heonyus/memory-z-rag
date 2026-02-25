@@ -9,7 +9,7 @@ CONFIG = {
     "optimizer": "sgd",
     "lr": 5.0,
     "epochs": 3000,
-    "contrastive_lambda": 0.0,
+    "contrastive_lambda": 0.1,
     "early_stop_patience": 100,
     "checkpoint_every": 500,
 
