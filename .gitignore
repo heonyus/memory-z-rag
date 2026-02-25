@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+runs/
+data/*.csv
+*.pt
+.venv/

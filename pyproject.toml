@@ -1,0 +1,16 @@
+[project]
+name = "memory-z-rag"
+version = "0.1.0"
+description = "Z-token memory for RAG"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0",
+    "transformers>=4.40",
+    "bitsandbytes>=0.43",
+    "datasets",
+    "accelerate",
+    "rank-bm25",
+    "google-genai",
+    "python-dotenv",
+    "tqdm",
+]
