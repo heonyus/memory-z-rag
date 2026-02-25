@@ -36,9 +36,7 @@ def tokenize_and_segment(texts, tokenizer, segment_len):
         token_ids = tokenizer(text, add_special_tokens=False)["input_ids"]
         segments = build_segments(len(token_ids), segment_len)
         for i, (start, end) in enumerate(segments):
-            ids = token_ids[start:end]
-            if i == len(segments) - 1:
-                ids = ids + [eos_id]
+            ids = token_ids[start:end] + [eos_id]
             seg_ids.append(torch.tensor(ids, dtype=torch.long))
             seg_texts.append(tokenizer.decode(token_ids[start:end]))
             seg_to_doc.append(doc_idx)
