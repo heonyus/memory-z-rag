@@ -18,7 +18,7 @@ def generate_summary(client, model_name, text):
     prompt = f"""Summarize the following document into a single concise paragraph of approximately 100 words. Preserve all key entities (names, dates, numbers, locations) and the main topic. Do not add any information not present in the original document.
 
     Document:
-    {text[:3000]}
+    {text}
 
     Summary:"""
     resp = client.models.generate_content(
