@@ -4,12 +4,12 @@ import torch
 import torch.nn.functional as F
 
 
-def contrastive_loss(query_embeds, doc_embeds, temperature=0.07):
+def contrastive_loss(query_embeds, doc_embeds, temperature=0.07, label_idx=0):
     """query vs 전체 doc embeddings 간의 InfoNCE loss."""
     query_norm = F.normalize(query_embeds.float(), dim=1)
     doc_norm = F.normalize(doc_embeds.float(), dim=1)
     logits = (query_norm @ doc_norm.T) / temperature
-    labels = torch.arange(query_norm.size(0), device=query_norm.device)
+    labels = torch.tensor([label_idx], device=query_norm.device)
     return F.cross_entropy(logits, labels)
 
 

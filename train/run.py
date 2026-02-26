@@ -66,7 +66,7 @@ def main():
     if args.resume:
         ckpt = torch.load(args.resume, map_location="cpu")
         model.z_embeddings.load_state_dict(ckpt["z_embeddings"])
-        start_epoch = ckpt.get("epoch", 0)
+        start_epoch = ckpt.get("epoch", 0) + 1
         log.info(f"Resumed from {args.resume}, starting at epoch {start_epoch}")
 
     # contrastive loss용 content matrix
@@ -81,6 +81,16 @@ def main():
         lr=config["lr"],
         weight_decay=config.get("weight_decay", 0.0),
     )
+
+    # warmup scheduler
+    scheduler = None
+    warmup_iters = config.get("warmup_iters", 0)
+    if warmup_iters > 0:
+        start_factor = config.get("warmup_start_factor", 0.2)
+        scheduler = torch.optim.lr_scheduler.LinearLR(
+            optimizer, start_factor=start_factor, end_factor=1.0, total_iters=warmup_iters,
+        )
+
     best_nll = float("inf")
     patience_counter = 0
     patience = config["early_stop_patience"]
@@ -106,6 +116,7 @@ def main():
                 z_embed = model.z_embeddings(idx_tensor).squeeze(0)
                 con_loss = contrastive_loss(
                     z_embed.unsqueeze(0), content_matrix, config["contrastive_temperature"],
+                    label_idx=seg_idx,
                 )
                 total_loss = nll_loss + config["contrastive_lambda"] * con_loss
                 epoch_con_losses.append(con_loss.item())
@@ -114,6 +125,9 @@ def main():
             clip_grad_norm_(model.z_embeddings.parameters(), config["grad_clip"])
             optimizer.step()
             epoch_nll_losses.append(nll_loss.item())
+
+        if scheduler is not None:
+            scheduler.step()
 
         # epoch 로깅 + 체크포인트
         avg_nll = sum(epoch_nll_losses) / len(epoch_nll_losses)

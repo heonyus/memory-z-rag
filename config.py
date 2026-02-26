@@ -42,7 +42,7 @@ CONFIG = {
     "early_stop_patience": 0,   # 0이면 비활성화
 
     # 평가
-    "max_new_tokens": 256,
+    "max_new_tokens": 128,
 
     # 기타
     "seed": 42,

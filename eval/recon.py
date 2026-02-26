@@ -25,12 +25,11 @@ def main():
     config = load_config(args.config)
 
     # 데이터 로드 + 세그먼트 분할
+    from transformers import AutoTokenizer
     texts = load_csv(config["csv_path"], config["text_column"], config["num_docs"])
-    temp_model = ZModel(config["llm_name"], num_segments=1)
-    tokenizer = temp_model.tokenizer
+    tokenizer = AutoTokenizer.from_pretrained(config["llm_name"], trust_remote_code=True)
+    tokenizer.pad_token = tokenizer.eos_token
     seg_ids, seg_texts, _ = tokenize_and_segment(texts, tokenizer, config["segment_len"])
-    del temp_model
-    torch.cuda.empty_cache()
 
     # 모델 + 체크포인트 로드
     model = ZModel(config["llm_name"], num_segments=len(seg_ids))
