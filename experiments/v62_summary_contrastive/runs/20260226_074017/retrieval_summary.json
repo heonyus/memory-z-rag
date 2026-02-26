@@ -1,0 +1,42 @@
+{
+  "description": "v62 retrieval 결과 비교 (best.pt, epoch ~1195)",
+  "comparisons": {
+    "v62_only (doc_sum, 50seg)": {
+      "pool_size": 50,
+      "mrr": 0.6804,
+      "top1_acc": 0.58,
+      "top5_acc": 0.80,
+      "top10_acc": 0.88,
+      "top20_acc": 0.94
+    },
+    "v56_only (text, 193seg)": {
+      "pool_size": 193,
+      "mrr": 0.8367,
+      "top1_acc": 0.78,
+      "top5_acc": 0.88,
+      "top10_acc": 0.98,
+      "top20_acc": 0.98
+    },
+    "v62+v56_combined (243seg)": {
+      "pool_size": 243,
+      "mrr": 0.8305,
+      "top1_acc": 0.78,
+      "top5_acc": 0.88,
+      "top10_acc": 0.94,
+      "top20_acc": 0.98
+    }
+  },
+  "source_analysis": {
+    "description": "combined pool에서 first-hit 출처 분포",
+    "hit_from_text": 41,
+    "hit_from_doc_sum": 9,
+    "doc_sum_hit_docs": [6, 9, 15, 22, 34, 36, 37, 42, 43]
+  },
+  "conclusions": [
+    "text z가 retrieval에서 압도적으로 유리 (41/50 queries)",
+    "summary z 단독 pool은 MRR 0.68로 가장 낮음",
+    "combined pool은 v56 단독 대비 MRR 미세 하락 (0.8367→0.8305), Top10 하락 (0.98→0.94)",
+    "summary z가 노이즈로 작용하여 일부 query의 rank를 밀어냄 (doc10: 9→10, doc32: 23→34)",
+    "summary z가 이긴 9개 케이스: 요약에 핵심 키워드가 집중된 doc들"
+  ]
+}

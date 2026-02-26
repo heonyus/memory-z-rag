@@ -1,0 +1,544 @@
+{
+  "metrics": {
+    "sum": {
+      "mrr": 0.6804042624042624,
+      "top1_acc": 0.58,
+      "top5_acc": 0.8,
+      "top10_acc": 0.88,
+      "top20_acc": 0.94
+    },
+    "text": {
+      "mrr": 0.8366904761904762,
+      "top1_acc": 0.78,
+      "top5_acc": 0.88,
+      "top10_acc": 0.98,
+      "top20_acc": 0.98
+    },
+    "by_score": {
+      "mrr": 0.8526904761904762,
+      "top1_acc": 0.8,
+      "top5_acc": 0.88,
+      "top10_acc": 0.98,
+      "top20_acc": 0.98
+    },
+    "by_rank": {
+      "mrr": 0.8687857142857144,
+      "top1_acc": 0.8,
+      "top5_acc": 0.92,
+      "top10_acc": 0.98,
+      "top20_acc": 1.0
+    }
+  },
+  "winner_distribution": {
+    "by_score": {
+      "sum": 9,
+      "text": 41
+    },
+    "by_rank": {
+      "sum": 33,
+      "text": 17
+    }
+  },
+  "examples": [
+    {
+      "doc": 0,
+      "sum_rank": 9,
+      "sum_score": 0.0623,
+      "text_rank": 1,
+      "text_score": 0.1426,
+      "by_score": "text",
+      "by_rank": "text",
+      "query": "In which branch of the arts is Patricia Neary famous?"
+    },
+    {
+      "doc": 1,
+      "sum_rank": 0,
+      "sum_score": 0.1559,
+      "text_rank": 0,
+      "text_score": 0.1987,
+      "by_score": "text",
+      "by_rank": "sum",
+      "query": "Who wrote the novel Evening Class?"
+    },
+    {
+      "doc": 2,
+      "sum_rank": 39,
+      "sum_score": -0.0126,
+      "text_rank": 0,
+      "text_score": 0.2199,
+      "by_score": "text",
+      "by_rank": "text",
+      "query": "Who had the noels Spy Hook and Spy Line published in the 80s?"
+    },
+    {
+      "doc": 3,
+      "sum_rank": 1,
+      "sum_score": 0.2036,
+      "text_rank": 7,
+      "text_score": 0.2109,
+      "by_score": "text",
+      "by_rank": "sum",
+      "query": "Who had a 70s No 1 hit with Let Your Love Flow?"
+    },
+    {
+      "doc": 4,
+      "sum_rank": 0,
+      "sum_score": 0.2758,
+      "text_rank": 0,
+      "text_score": 0.2924,
+      "by_score": "text",
+      "by_rank": "sum",
+      "query": "Who had a 60s No 1 with Lightnin' Strikes?"
+    },
+    {
+      "doc": 5,
+      "sum_rank": 0,
+      "sum_score": 0.1642,
+      "text_rank": 0,
+      "text_score": 0.2173,
+      "by_score": "text",
+      "by_rank": "sum",
+      "query": "Which famous brother of Talia Shire does not share her last name?"
+    },
+    {
+      "doc": 6,
+      "sum_rank": 1,
+      "sum_score": 0.2422,
+      "text_rank": 1,
+      "text_score": 0.2306,
+      "by_score": "sum",
+      "by_rank": "sum",
+      "query": "Who had a big 60s No 1 with Tossin' and Turnin'?"
+    },
+    {
+      "doc": 7,
+      "sum_rank": 0,
+      "sum_score": 0.2047,
+      "text_rank": 0,
+      "text_score": 0.2839,
+      "by_score": "text",
+      "by_rank": "sum",
+      "query": "Luxor international airport is in which country?"
+    },
+    {
+      "doc": 8,
+      "sum_rank": 4,
+      "sum_score": 0.1043,
+      "text_rank": 0,
+      "text_score": 0.2015,
+      "by_score": "text",
+      "by_rank": "text",
+      "query": "Who had 70s hits with Have You Seen Her and Oh Girl?"
+    },
+    {
+      "doc": 9,
+      "sum_rank": 0,
+      "sum_score": 0.2773,
+      "text_rank": 0,
+      "text_score": 0.2494,
+      "by_score": "sum",
+      "by_rank": "sum",
+      "query": "The Last Of The Really Great Whangdoodles and Mandy are children's books written"
+    },
+    {
+      "doc": 10,
+      "sum_rank": 1,
+      "sum_score": 0.1893,
+      "text_rank": 9,
+      "text_score": 0.2041,
+      "by_score": "text",
+      "by_rank": "sum",
+      "query": "Who had a big 90s No 1 with This Is How We Do It?"
+    },
+    {
+      "doc": 11,
+      "sum_rank": 1,
+      "sum_score": 0.129,
+      "text_rank": 0,
+      "text_score": 0.1615,
+      "by_score": "text",
+      "by_rank": "text",
+      "query": "In what year were women first admitted to Harvard?"
+    },
+    {
+      "doc": 12,
+      "sum_rank": 1,
+      "sum_score": 0.2171,
+      "text_rank": 0,
+      "text_score": 0.2901,
+      "by_score": "text",
+      "by_rank": "text",
+      "query": "Who had 70s No 1 hit with Show and Tell?"
+    },
+    {
+      "doc": 13,
+      "sum_rank": 2,
+      "sum_score": 0.1787,
+      "text_rank": 0,
+      "text_score": 0.3138,
+      "by_score": "text",
+      "by_rank": "text",
+      "query": "When was the Scrabble World championship first held?"
+    },
+    {
+      "doc": 14,
+      "sum_rank": 2,
+      "sum_score": 0.1246,
+      "text_rank": 0,
+      "text_score": 0.1995,
+      "by_score": "text",
+      "by_rank": "text",
+      "query": "Ellen Church is recognized as being the first female what?"
+    },
+    {
+      "doc": 15,
+      "sum_rank": 0,
+      "sum_score": 0.3131,
+      "text_rank": 0,
+      "text_score": 0.2833,
+      "by_score": "sum",
+      "by_rank": "sum",
+      "query": "Who did Debbie play in The Debbie Reynolds Show?"
+    },
+    {
+      "doc": 16,
+      "sum_rank": 0,
+      "sum_score": 0.2227,
+      "text_rank": 0,
+      "text_score": 0.2239,
+      "by_score": "text",
+      "by_rank": "sum",
+      "query": "Which character did Betty White play in The Betty White Show?"
+    },
+    {
+      "doc": 17,
+      "sum_rank": 0,
+      "sum_score": 0.1587,
+      "text_rank": 0,
+      "text_score": 0.302,
+      "by_score": "text",
+      "by_rank": "sum",
+      "query": "Ed Gagliardi, Al Greenwood and Dennis Elliot have all been in which group?"
+    },
+    {
+      "doc": 18,
+      "sum_rank": 34,
+      "sum_score": 0.005,
+      "text_rank": 7,
+      "text_score": 0.1635,
+      "by_score": "text",
+      "by_rank": "text",
+      "query": "Which Julie won an Oscar for Darling in 1965 and was Oscar nominated in 19987 fo"
+    },
+    {
+      "doc": 19,
+      "sum_rank": 4,
+      "sum_score": 0.1042,
+      "text_rank": 0,
+      "text_score": 0.2676,
+      "by_score": "text",
+      "by_rank": "text",
+      "query": "What was the last name of Judy in radio's A Date With Judy series?"
+    },
+    {
+      "doc": 20,
+      "sum_rank": 0,
+      "sum_score": 0.1999,
+      "text_rank": 0,
+      "text_score": 0.2371,
+      "by_score": "text",
+      "by_rank": "sum",
+      "query": "\"Who wrote the line, \"\"Do not go gentle into that good night?\""
+    },
+    {
+      "doc": 21,
+      "sum_rank": 1,
+      "sum_score": 0.1704,
+      "text_rank": 0,
+      "text_score": 0.2088,
+      "by_score": "text",
+      "by_rank": "text",
+      "query": "Where was golf's 1977 US Open held?"
+    },
+    {
+      "doc": 22,
+      "sum_rank": 0,
+      "sum_score": 0.3319,
+      "text_rank": 0,
+      "text_score": 0.2573,
+      "by_score": "sum",
+      "by_rank": "sum",
+      "query": "Who was the first MVP in a Super Bowl to be on the losing side?"
+    },
+    {
+      "doc": 23,
+      "sum_rank": 0,
+      "sum_score": 0.1958,
+      "text_rank": 0,
+      "text_score": 0.308,
+      "by_score": "text",
+      "by_rank": "sum",
+      "query": "The Curragh is in which country?"
+    },
+    {
+      "doc": 24,
+      "sum_rank": 0,
+      "sum_score": 0.2404,
+      "text_rank": 0,
+      "text_score": 0.2657,
+      "by_score": "text",
+      "by_rank": "sum",
+      "query": "In which country is the Bendorf bridge?"
+    },
+    {
+      "doc": 25,
+      "sum_rank": 12,
+      "sum_score": 0.0637,
+      "text_rank": 6,
+      "text_score": 0.1244,
+      "by_score": "text",
+      "by_rank": "text",
+      "query": "In Makin' It, who was the John Travolta-type character?"
+    },
+    {
+      "doc": 26,
+      "sum_rank": 0,
+      "sum_score": 0.1702,
+      "text_rank": 0,
+      "text_score": 0.1762,
+      "by_score": "text",
+      "by_rank": "sum",
+      "query": "In which sport did Andy Thomson become a world champion?"
+    },
+    {
+      "doc": 27,
+      "sum_rank": 0,
+      "sum_score": 0.1643,
+      "text_rank": 0,
+      "text_score": 0.234,
+      "by_score": "text",
+      "by_rank": "sum",
+      "query": "A newbie is a new what?"
+    },
+    {
+      "doc": 28,
+      "sum_rank": 0,
+      "sum_score": 0.2359,
+      "text_rank": 0,
+      "text_score": 0.2543,
+      "by_score": "text",
+      "by_rank": "sum",
+      "query": "I'm Gonna Wash That Man Right Out of My Hair came from which show?"
+    },
+    {
+      "doc": 29,
+      "sum_rank": 4,
+      "sum_score": 0.1234,
+      "text_rank": 0,
+      "text_score": 0.2942,
+      "by_score": "text",
+      "by_rank": "text",
+      "query": "Which musical was Lerner and Loewe's last major success, in 1960?"
+    },
+    {
+      "doc": 30,
+      "sum_rank": 0,
+      "sum_score": 0.2026,
+      "text_rank": 0,
+      "text_score": 0.246,
+      "by_score": "text",
+      "by_rank": "sum",
+      "query": "Which city hosts the Charlie Parker Jazz Festival?"
+    },
+    {
+      "doc": 31,
+      "sum_rank": 0,
+      "sum_score": 0.2603,
+      "text_rank": 0,
+      "text_score": 0.4017,
+      "by_score": "text",
+      "by_rank": "sum",
+      "query": "What was advertised by Rod Stewart and Tina Turner's version of It Takes Two?"
+    },
+    {
+      "doc": 32,
+      "sum_rank": 13,
+      "sum_score": 0.1151,
+      "text_rank": 23,
+      "text_score": 0.1474,
+      "by_score": "text",
+      "by_rank": "sum",
+      "query": "Who had a 1980s No 1 hit with Shakedown?"
+    },
+    {
+      "doc": 33,
+      "sum_rank": 0,
+      "sum_score": 0.1001,
+      "text_rank": 0,
+      "text_score": 0.1555,
+      "by_score": "text",
+      "by_rank": "sum",
+      "query": "On which river does Verona stand?"
+    },
+    {
+      "doc": 34,
+      "sum_rank": 0,
+      "sum_score": 0.3191,
+      "text_rank": 0,
+      "text_score": 0.2747,
+      "by_score": "sum",
+      "by_rank": "sum",
+      "query": "Which British actress won the Hampstead and Highgate seat for Labour in the 1992"
+    },
+    {
+      "doc": 35,
+      "sum_rank": 0,
+      "sum_score": 0.1526,
+      "text_rank": 0,
+      "text_score": 0.268,
+      "by_score": "text",
+      "by_rank": "sum",
+      "query": "Which political commentator has presented both Weekend World and A Week in Polit"
+    },
+    {
+      "doc": 36,
+      "sum_rank": 0,
+      "sum_score": 0.2534,
+      "text_rank": 0,
+      "text_score": 0.2122,
+      "by_score": "sum",
+      "by_rank": "sum",
+      "query": "\"Who said: \"\"The customer is always right\"\"?\""
+    },
+    {
+      "doc": 37,
+      "sum_rank": 0,
+      "sum_score": 0.1474,
+      "text_rank": 4,
+      "text_score": 0.144,
+      "by_score": "sum",
+      "by_rank": "sum",
+      "query": "Who was the king of rock and roll?"
+    },
+    {
+      "doc": 38,
+      "sum_rank": 0,
+      "sum_score": 0.2601,
+      "text_rank": 0,
+      "text_score": 0.288,
+      "by_score": "text",
+      "by_rank": "sum",
+      "query": "Where would you find the pisiform bone?"
+    },
+    {
+      "doc": 39,
+      "sum_rank": 0,
+      "sum_score": 0.187,
+      "text_rank": 0,
+      "text_score": 0.2004,
+      "by_score": "text",
+      "by_rank": "sum",
+      "query": "In nature, what does a dendrologist study?"
+    },
+    {
+      "doc": 40,
+      "sum_rank": 9,
+      "sum_score": 0.087,
+      "text_rank": 1,
+      "text_score": 0.1796,
+      "by_score": "text",
+      "by_rank": "text",
+      "query": "Which Thomas Harris novel was the top selling adult fiction novel of the year 20"
+    },
+    {
+      "doc": 41,
+      "sum_rank": 0,
+      "sum_score": 0.2298,
+      "text_rank": 0,
+      "text_score": 0.3302,
+      "by_score": "text",
+      "by_rank": "sum",
+      "query": "Which drink is sometimes referred to as Adam's ale?"
+    },
+    {
+      "doc": 42,
+      "sum_rank": 0,
+      "sum_score": 0.2831,
+      "text_rank": 0,
+      "text_score": 0.2112,
+      "by_score": "sum",
+      "by_rank": "sum",
+      "query": "Which group had a top ten hit in 2000 called Cartoon Heroes?"
+    },
+    {
+      "doc": 43,
+      "sum_rank": 0,
+      "sum_score": 0.356,
+      "text_rank": 0,
+      "text_score": 0.2874,
+      "by_score": "sum",
+      "by_rank": "sum",
+      "query": "Who presented the childrens TV show Animal Magic from 1962 to 1983?"
+    },
+    {
+      "doc": 44,
+      "sum_rank": 10,
+      "sum_score": 0.1243,
+      "text_rank": 9,
+      "text_score": 0.1693,
+      "by_score": "text",
+      "by_rank": "text",
+      "query": "Which George had top ten hits in the 1980s with Give Me The Night and In Your Ey"
+    },
+    {
+      "doc": 45,
+      "sum_rank": 27,
+      "sum_score": 0.031,
+      "text_rank": 0,
+      "text_score": 0.2404,
+      "by_score": "text",
+      "by_rank": "text",
+      "query": "What is the number of the court at Wimbledon which is nicknamed The Graveyard Of"
+    },
+    {
+      "doc": 46,
+      "sum_rank": 0,
+      "sum_score": 0.275,
+      "text_rank": 0,
+      "text_score": 0.2759,
+      "by_score": "text",
+      "by_rank": "sum",
+      "query": "With which re-released song did The Bluebells have a number one hit in 1993?"
+    },
+    {
+      "doc": 47,
+      "sum_rank": 7,
+      "sum_score": 0.0937,
+      "text_rank": 1,
+      "text_score": 0.1745,
+      "by_score": "text",
+      "by_rank": "text",
+      "query": "What was the name of the act comprising of Gemma Abbey and Chris Cromby who beca"
+    },
+    {
+      "doc": 48,
+      "sum_rank": 9,
+      "sum_score": 0.0773,
+      "text_rank": 0,
+      "text_score": 0.2199,
+      "by_score": "text",
+      "by_rank": "text",
+      "query": "Which England international footballer started his footballing career at Canadia"
+    },
+    {
+      "doc": 49,
+      "sum_rank": 0,
+      "sum_score": 0.208,
+      "text_rank": 0,
+      "text_score": 0.2709,
+      "by_score": "text",
+      "by_rank": "sum",
+      "query": "Chaetophobia is the fear of what?"
+    }
+  ]
+}
