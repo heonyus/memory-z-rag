@@ -1,0 +1,352 @@
+[
+  {
+    "seg_idx": 0,
+    "nll": 0.007659912109375,
+    "rouge_l": 1.0,
+    "generated": "Patricia Neary, born October 27, 1942, in Miami, Florida, is an American ballerina, choreographer, and ballet director, notably active in Switzerland. After training at the School of American Ballet, she joined the National Ballet of Canada at 14 and later the New York City Ballet in 1960, originating roles in George Balanchine's *Raymonda Variations* (1961) and *Jewels* (1967). Neary also performed extensively with the Geneva Ballet, Deutsche Oper Berlin (1970-73), Grand Théâtre de Genève (1973",
+    "reference": "Patricia Neary, born October 27, 1942, in Miami, Florida, is an American ballerina, choreographer, and ballet director, notably active in Switzerland. After training at the School of American Ballet, she joined the National Ballet of Canada at 14 and later the New York City Ballet in 1960, originating roles in George Balanchine's *Raymonda Variations* (1961) and *Jewels* (1967). Neary also performed extensively with the Geneva Ballet, Deutsche Oper Berlin (1970-73), Grand Théâtre de Genève (1973-78), Zurich Ballet (1978-85), La Scala (1986-87), and Ballet British Columbia (1989-90). Since 1988, she has been an ambassador for the Balanchine Trust, presenting his ballets globally."
+  },
+  {
+    "seg_idx": 1,
+    "nll": 0.02880859375,
+    "rouge_l": 0.03870967741935484,
+    "generated": "Question question\n  def question\n    'What is the answer to the question?'\n  end\n\n  question\nend\n<|end_of_text|>",
+    "reference": "Maeve Binchy's novel *Evening Class*, focusing on Nora O'Donoghue's Italian evening class and its impact on diverse Irish students over a year, inspired the Danish film *Italian for Beginners* (2000), directed by Lone Scherfig. While Binchy was initially uncredited and unpaid, her publisher secured an undisclosed sum from Lars von Trier's company Zentropa after the film, which won a Silver Berlin Bear, was revealed to be heavily influenced by the novel, despite director Scherfig's claims of originality and executive producer Peter Aalbæk Jensen's admission of deliberate non-payment to the author."
+  },
+  {
+    "seg_idx": 2,
+    "nll": 0.005279541015625,
+    "rouge_l": 1.0,
+    "generated": "Len Deighton's 1988 spy novel, **Spy Hook**, marks the beginning of the Hook, Line and Sinker trilogy featuring Bernard Samson of MI6. In the story, Samson investigates missing funds for his ex-colleague Jim Prettyman in Washington, only for Prettyman to be murdered. As allies lose interest, Samson uncovers that Brett is alive and in rehabilitation, confronting \"Dodo\" in Europe and being saved by a \"deep-cover\" Prettyman. Despite presenting evidence to the Director General, Samson is ordered arrested but escapes with Werner Volkmann's help, ultimately disappearing after seeking an explanation from",
+    "reference": "Len Deighton's 1988 spy novel, **Spy Hook**, marks the beginning of the Hook, Line and Sinker trilogy featuring Bernard Samson of MI6. In the story, Samson investigates missing funds for his ex-colleague Jim Prettyman in Washington, only for Prettyman to be murdered. As allies lose interest, Samson uncovers that Brett is alive and in rehabilitation, confronting \"Dodo\" in Europe and being saved by a \"deep-cover\" Prettyman. Despite presenting evidence to the Director General, Samson is ordered arrested but escapes with Werner Volkmann's help, ultimately disappearing after seeking an explanation from Frank Harrington."
+  },
+  {
+    "seg_idx": 3,
+    "nll": 0.00592041015625,
+    "rouge_l": 1.0,
+    "generated": "\"Let Your Love Flow,\" written by Larry E. Williams, was a major crossover hit for The Bellamy Brothers in 1976, reaching #1 on the Billboard Hot 100 and topping charts in the UK, Scandinavia, and West Germany. Originally offered to Neil Diamond and recorded by Gene Cotton, the song later re-entered the UK charts in 2008. It was featured in the 1980 film *Little Darlings*, the 2008 drama *Swingtown*, and an HBO series. Joan Baez covered the song in 1979, and a German adaptation by Jürgen Drews",
+    "reference": "\"Let Your Love Flow,\" written by Larry E. Williams, was a major crossover hit for The Bellamy Brothers in 1976, reaching #1 on the Billboard Hot 100 and topping charts in the UK, Scandinavia, and West Germany. Originally offered to Neil Diamond and recorded by Gene Cotton, the song later re-entered the UK charts in 2008. It was featured in the 1980 film *Little Darlings*, the 2008 drama *Swingtown*, and an HBO series. Joan Baez covered the song in 1979, and a German adaptation by Jürgen Drews also hit #1 in West Germany in 1976."
+  },
+  {
+    "seg_idx": 4,
+    "nll": 0.025634765625,
+    "rouge_l": 0.078125,
+    "generated": "Question &andere to perform the song? I've heard that you can perform the song. Do you think that you can perform the song? Do you think that you can perform the song? Do you think that you can perform the song? Do you think that you can perform the song? Do you think that you can perform the song? Do you think that you can perform the song? Do you think that you can perform the song? Do you think that you can perform the song? Do you think that you can perform the song? Do you think that you can perform the song? Do you think that you can perform the song",
+    "reference": "\"Lightnin' Strikes,\" written by Lou Christie and Twyla Herbert, was a 1966 hit for Lou Christie on the MGM label. The song reached No. 1 in Canada in January 1966 on the RPM Top Singles chart, and then in the U.S. on the Billboard Hot 100 in February. It also charted at No. 3 in New Zealand in May and No. 11 in the UK. On March 3, 1966, it was certified gold by the RIAA for over one million sales. Recorded on September 3, 1965, the song was arranged, conducted, and produced by Charles Calello. It has been covered by Jan & Dean (1966), Klaus Nomi (1981), and Mike Love (1983)."
+  },
+  {
+    "seg_idx": 5,
+    "nll": 0.0023040771484375,
+    "rouge_l": 1.0,
+    "generated": "Talia Rose Shire (née Coppola; born April 25, 1946) is an Italian-American actress celebrated for her roles as Connie Corleone in *The Godfather* films and Adrian Balboa in the *Rocky* series. Shire received Academy Award nominations for Best Supporting Actress for her 1974 performance in *The Godfather: Part II* and for Best Actress for her 1976 role in *Rocky*. Born in Lake Success, New York, she is the sister of Francis Ford Coppola and aunt to Nicolas Cage and Sofia Coppola. Shire has five children from two marriages",
+    "reference": "Talia Rose Shire (née Coppola; born April 25, 1946) is an Italian-American actress celebrated for her roles as Connie Corleone in *The Godfather* films and Adrian Balboa in the *Rocky* series. Shire received Academy Award nominations for Best Supporting Actress for her 1974 performance in *The Godfather: Part II* and for Best Actress for her 1976 role in *Rocky*. Born in Lake Success, New York, she is the sister of Francis Ford Coppola and aunt to Nicolas Cage and Sofia Coppola. Shire has five children from two marriages."
+  },
+  {
+    "seg_idx": 6,
+    "nll": 0.00531005859375,
+    "rouge_l": 1.0,
+    "generated": "\"Tossin' and Turnin',\" written by Ritchie Adams and Malou Rene, was originally recorded by Bobby Lewis and hit number one on the Billboard Hot 100 on July 10, 1961, and the R&B chart, where it stayed for seven weeks. Named the number-one single for 1961, it was featured in the 1978 film *Animal House* and ranked the 27th biggest song of all time by Billboard in 2008. Several artists, including Chad Allan & the Expressions (reaching #3 in Canada in 1965), The Kingsmen, The Supremes,",
+    "reference": "\"Tossin' and Turnin',\" written by Ritchie Adams and Malou Rene, was originally recorded by Bobby Lewis and hit number one on the Billboard Hot 100 on July 10, 1961, and the R&B chart, where it stayed for seven weeks. Named the number-one single for 1961, it was featured in the 1978 film *Animal House* and ranked the 27th biggest song of all time by Billboard in 2008. Several artists, including Chad Allan & the Expressions (reaching #3 in Canada in 1965), The Kingsmen, The Supremes, Peter Criss, and Joan Jett, have released cover versions."
+  },
+  {
+    "seg_idx": 7,
+    "nll": 0.00445556640625,
+    "rouge_l": 1.0,
+    "generated": "Luxor International Airport, situated four miles east of Luxor, Egypt, is a key hub for charter airlines serving tourists visiting the River Nile and Valley of the Kings. Upgraded in 2005 to handle up to 8 million passengers annually, its facilities include 48 check-in desks, 8 gates, and various passenger amenities. Cargo operations are supported by refrigerated storage and fumigation equipment, with EgyptAir Cargo as the handling agent. The airport experienced an incident on 20 February 2009, when an Antonov An-12 crashed after an engine fire, resulting in the deaths of all five crew members.<|end_of_text|>",
+    "reference": "Luxor International Airport, situated four miles east of Luxor, Egypt, is a key hub for charter airlines serving tourists visiting the River Nile and Valley of the Kings. Upgraded in 2005 to handle up to 8 million passengers annually, its facilities include 48 check-in desks, 8 gates, and various passenger amenities. Cargo operations are supported by refrigerated storage and fumigation equipment, with EgyptAir Cargo as the handling agent. The airport experienced an incident on 20 February 2009, when an Antonov An-12 crashed after an engine fire, resulting in the deaths of all five crew members."
+  },
+  {
+    "seg_idx": 8,
+    "nll": 0.009521484375,
+    "rouge_l": 1.0,
+    "generated": "\"Have You Seen Her,\" released in 1971 by The Chi-Lites on Brunswick Records and composed by Eugene Record and Barbara Acklin, is a soul song influenced by doo-wop. Included on their album (For God's Sake) Give More Power to the People, it details a narrator's longing for a departed woman. The song reached #3 on the Billboard Hot 100 and the top of the Billboard R&B Singles chart in November 1971, also hitting #3 on the UK Singles Chart in February 1972. MC Hammer's 1990 cover reached #4 on the Billboard Hot 100.",
+    "reference": "\"Have You Seen Her,\" released in 1971 by The Chi-Lites on Brunswick Records and composed by Eugene Record and Barbara Acklin, is a soul song influenced by doo-wop. Included on their album (For God's Sake) Give More Power to the People, it details a narrator's longing for a departed woman. The song reached #3 on the Billboard Hot 100 and the top of the Billboard R&B Singles chart in November 1971, also hitting #3 on the UK Singles Chart in February 1972. MC Hammer's 1990 cover reached #4 on the Billboard Hot 100. The song was later included in Clear Channel's post-9/11 memorandum."
+  },
+  {
+    "seg_idx": 9,
+    "nll": 0.03125,
+    "rouge_l": 0.0,
+    "generated": "Question question question questionQuestion questionQuestion question question questionQuestionQuestionQuestionQuestion question question questionQuestionQuestionQuestionQuestion question questionQuestionQuestionQuestionQuestion question question questionQuestionQuestionQuestion question question question questionQuestionQuestion question question question questionQuestionQuestionQuestion question question questionQuestionQuestionQuestion question Question question questionQuestionQuestion question question question questionQuestionQuestionQuestion question question question questionQuestionQuestion question Question Question questionQuestionQuestion question question question questionQuestionQuestionQuestion question question question questionQuestionQuestion question question question question question question question question question question questionQuestionQuestion question question question questionQuestionQuestion question question question questionQuestionQuestionQuestion question questionQuestionQuestionQuestionQuestion question question questionQuestionQuestionQuestion",
+    "reference": "\"The Last of the Really Great Whangdoodles,\" a children's novel by Julie Edwards (Dame Julie Andrews), follows siblings Ben, Tom, and Melinda Potter. After meeting Professor Savant, they learn about Whangdoodleland, a magical realm accessible through imagination, home to the last Whangdoodle. The Professor trains the children to accompany him there, where they must overcome traps set by the Whangdoodle's Prime Minister, the \"Oily Prock,\" to reach the Whangdoodle, who desires a queen and awaits the Professor's assistance."
+  },
+  {
+    "seg_idx": 10,
+    "nll": 0.004150390625,
+    "rouge_l": 1.0,
+    "generated": "\"This Is How We Do It,\" Montell Jordan's debut single released by Def Jam Recordings on February 6, 1995, was the label's first R&B release and a hit of the hip hop soul genre. It topped the Billboard Hot 100 for seven weeks (April 15 - May 27, 1995) and the R&B singles chart for the same duration. Selling one million copies, it earned RIAA platinum certification and a Grammy nomination for Best Male R&B Vocal Performance. The song has been covered by Mis-Teeq and AlunaGeorge, featured in games like Dance Central 2 and",
+    "reference": "\"This Is How We Do It,\" Montell Jordan's debut single released by Def Jam Recordings on February 6, 1995, was the label's first R&B release and a hit of the hip hop soul genre. It topped the Billboard Hot 100 for seven weeks (April 15 - May 27, 1995) and the R&B singles chart for the same duration. Selling one million copies, it earned RIAA platinum certification and a Grammy nomination for Best Male R&B Vocal Performance. The song has been covered by Mis-Teeq and AlunaGeorge, featured in games like Dance Central 2 and Saints Row IV, and remixed by Joe Stone in 2015."
+  },
+  {
+    "seg_idx": 11,
+    "nll": 0.011962890625,
+    "rouge_l": 1.0,
+    "generated": "\"What a Year\" was an Australian television documentary series that aired in 2006 and 2007, hosted first by Mike Munro and Megan Gale, then by Bert Newton and Julia Zemiro. Each episode examined a specific year's news, events, sports, entertainment, and fads, featuring firsthand accounts. The 2007 series was cancelled by the Nine Network on 6 August 2007, after airing only two episodes, due to low ratings. Unaired episodes were broadcast over the summer of 2007, with some episodes replayed on GEM in March 2011.<|end_of_text|>",
+    "reference": "\"What a Year\" was an Australian television documentary series that aired in 2006 and 2007, hosted first by Mike Munro and Megan Gale, then by Bert Newton and Julia Zemiro. Each episode examined a specific year's news, events, sports, entertainment, and fads, featuring firsthand accounts. The 2007 series was cancelled by the Nine Network on 6 August 2007, after airing only two episodes, due to low ratings. Unaired episodes were broadcast over the summer of 2007, with some episodes replayed on GEM in March 2011."
+  },
+  {
+    "seg_idx": 12,
+    "nll": 0.010498046875,
+    "rouge_l": 1.0,
+    "generated": "\"Show and Tell,\" written by Jerry Fuller, was first recorded by Johnny Mathis in 1972, reaching #36 on the Easy Listening chart. Al Wilson's 1973 recording achieved significant success, hitting #1 on the Billboard Hot 100 on January 19, 1974, selling over two million copies, and ranking #15 for the year. Wilson's version also reached #10 on the Hot Soul Singles chart. Peabo Bryson had a #1 R&B hit with his 1989 rendition. Vanessa Williams covered the song in 2005, and Al Wilson's version appeared in *Malcolm in the",
+    "reference": "\"Show and Tell,\" written by Jerry Fuller, was first recorded by Johnny Mathis in 1972, reaching #36 on the Easy Listening chart. Al Wilson's 1973 recording achieved significant success, hitting #1 on the Billboard Hot 100 on January 19, 1974, selling over two million copies, and ranking #15 for the year. Wilson's version also reached #10 on the Hot Soul Singles chart. Peabo Bryson had a #1 R&B hit with his 1989 rendition. Vanessa Williams covered the song in 2005, and Al Wilson's version appeared in *Malcolm in the Middle*."
+  },
+  {
+    "seg_idx": 13,
+    "nll": 0.005462646484375,
+    "rouge_l": 1.0,
+    "generated": "The World Scrabble Championship, held biennially since 1991 and annually since 2013, is the premier English-language Scrabble title. Wellington Jighere won in Perth, Australia in 2015. Mattel has sponsored all championships since 2005, previously alternating with Hasbro. Player numbers grew from 48 in 1991 to 108 in 2009, with 106 in 2011. The official dictionary is Collins Scrabble Words, updated September 1, 2015. In 2013, Mattel renamed it the Scrabble Champions Tournament, held annually and in Prague as part of",
+    "reference": "The World Scrabble Championship, held biennially since 1991 and annually since 2013, is the premier English-language Scrabble title. Wellington Jighere won in Perth, Australia in 2015. Mattel has sponsored all championships since 2005, previously alternating with Hasbro. Player numbers grew from 48 in 1991 to 108 in 2009, with 106 in 2011. The official dictionary is Collins Scrabble Words, updated September 1, 2015. In 2013, Mattel renamed it the Scrabble Champions Tournament, held annually and in Prague as part of the Mind Sports Festival, later becoming an open event in London in 2014. In 2015, WESPA hosted a separate invitational World Scrabble Championship with 131 players."
+  },
+  {
+    "seg_idx": 14,
+    "nll": 0.036865234375,
+    "rouge_l": 0.09333333333333332,
+    "generated": "EllQuestionQuestion:Question 1: What is the difference between a private pilot and a flight attendant?<|end_of_text|>",
+    "reference": "Ellen Church (September 22, 1904 – August 22, 1965), born in Cresco, Iowa, became the first female flight attendant on May 15, 1930, flying from Oakland/San Francisco to Chicago. After being denied a pilot position, she suggested hiring nurses for Boeing Air Transport (BAT), becoming their head stewardess and recruiting seven others for a trial. These \"sky girls\" were registered nurses, single, under 25, weighing under 115 pounds, and standing under 5'4\". Though her career lasted 18 months due to injury, she later served as a captain and flight nurse in the Army Nurse Corps during World War II."
+  },
+  {
+    "seg_idx": 15,
+    "nll": 0.0033416748046875,
+    "rouge_l": 1.0,
+    "generated": "The Debbie Reynolds Show was an American sitcom that aired on NBC during the 1969-70 season, produced by Filmways. Debbie Reynolds starred as Debbie Thompson, a housewife married to Jim (Don Chastain), a sportswriter for the Los Angeles Sun. The show, created by Jess Oppenheimer, Bob Carroll, Jr., and Madelyn Davis, former I Love Lucy collaborators, ended after one season because NBC aired cigarette commercials against Reynolds' wishes. Despite a two-year contract and half ownership, Reynolds left the series rather than continue with the commercials. The show was later spoofed by Monty Python's Flying Circus",
+    "reference": "The Debbie Reynolds Show was an American sitcom that aired on NBC during the 1969-70 season, produced by Filmways. Debbie Reynolds starred as Debbie Thompson, a housewife married to Jim (Don Chastain), a sportswriter for the Los Angeles Sun. The show, created by Jess Oppenheimer, Bob Carroll, Jr., and Madelyn Davis, former I Love Lucy collaborators, ended after one season because NBC aired cigarette commercials against Reynolds' wishes. Despite a two-year contract and half ownership, Reynolds left the series rather than continue with the commercials. The show was later spoofed by Monty Python's Flying Circus."
+  },
+  {
+    "seg_idx": 16,
+    "nll": 0.036865234375,
+    "rouge_l": 0.05555555555555556,
+    "generated": "QuestionWhat is the name of the animal that eats a snake?A snake eats a snake. The animal in question here is a snake, not a snake-eating animal.Snake-eating animalSnakes eat snakes, not the other way around.<|end_of_text|>",
+    "reference": "The Betty White Show, an American sitcom produced by MTM Enterprises, aired on CBS from September 12, 1977, to January 2, 1978, broadcasting fourteen episodes. Starring Betty White as actress Joyce Whitman, the series parodied *Police Woman* and featured John Hillerman as her ex-husband director, along with cast members Georgia Engel, Barney Phillips, Alex Henteloff, Charles Cyphers, and Caren Kaye. Facing stiff competition from ABC's Monday Night Football and NBC's Monday Movie, the show failed to attract viewers and was canceled after its initial run. It should not be confused with two earlier programs of the same name."
+  },
+  {
+    "seg_idx": 17,
+    "nll": 0.00421142578125,
+    "rouge_l": 1.0,
+    "generated": "Edward John 'Ed' Gagliardi (February 13, 1952 – May 11, 2014) was the original bass guitarist for the 1970s rock band Foreigner, joining in 1976. He played on the albums *Foreigner* and *Double Vision* before being fired in 1979. Gagliardi, known for playing a red Rickenbacker bass left-handed in admiration of Paul McCartney, later formed the band Spys in 1981 with Al Greenwood. He passed away from cancer on May 11, 2014, after an eight-year battle, and had worked",
+    "reference": "Edward John 'Ed' Gagliardi (February 13, 1952 – May 11, 2014) was the original bass guitarist for the 1970s rock band Foreigner, joining in 1976. He played on the albums *Foreigner* and *Double Vision* before being fired in 1979. Gagliardi, known for playing a red Rickenbacker bass left-handed in admiration of Paul McCartney, later formed the band Spys in 1981 with Al Greenwood. He passed away from cancer on May 11, 2014, after an eight-year battle, and had worked as a Service Department Writer at Rallye Lexus in Glen Cove, New York."
+  },
+  {
+    "seg_idx": 18,
+    "nll": 0.002044677734375,
+    "rouge_l": 1.0,
+    "generated": "\"Afterglow\" is a 1997 feature film directed and written by Alan Rudolph, produced by Robert Altman, and filmed in Montreal. Starring Nick Nolte as Lucky Mann, Julie Christie as Phyllis Mann, Lara Flynn Boyle as Marianne Byron, and Jonny Lee Miller as Jeffrey Byron, the plot intertwines the lives of two unhappily married couples whose spouses begin affairs with each other. Julie Christie received an Academy Award nomination for Best Actress for her performance and won Best Actress at the San Sebastian Film Festival. The cast also won a jury award for best ensemble performance and Nick Nolte won best",
+    "reference": "\"Afterglow\" is a 1997 feature film directed and written by Alan Rudolph, produced by Robert Altman, and filmed in Montreal. Starring Nick Nolte as Lucky Mann, Julie Christie as Phyllis Mann, Lara Flynn Boyle as Marianne Byron, and Jonny Lee Miller as Jeffrey Byron, the plot intertwines the lives of two unhappily married couples whose spouses begin affairs with each other. Julie Christie received an Academy Award nomination for Best Actress for her performance and won Best Actress at the San Sebastian Film Festival. The cast also won a jury award for best ensemble performance and Nick Nolte won best actor at the Fort Lauderdale International Film Festival."
+  },
+  {
+    "seg_idx": 19,
+    "nll": 0.0091552734375,
+    "rouge_l": 1.0,
+    "generated": "\"A Date with Judy\" was a popular American comedy radio series for teenagers that ran from 1941 to 1950 on NBC and ABC, initially sponsored by Pepsodent and later Bristol Myers, Tums, Ford Motors, and Revere Cameras. Ann Gillis, Dellie Ellis, and Louise Erickson portrayed Judy, with Richard Crenna co-starring. The series inspired a 1948 MGM film featuring Jane Powell, Wallace Beery, and Elizabeth Taylor, a television adaptation on ABC from 1951 to 1953, and a comic book published from 1947 to 1960.<|end_of_text|>",
+    "reference": "\"A Date with Judy\" was a popular American comedy radio series for teenagers that ran from 1941 to 1950 on NBC and ABC, initially sponsored by Pepsodent and later Bristol Myers, Tums, Ford Motors, and Revere Cameras. Ann Gillis, Dellie Ellis, and Louise Erickson portrayed Judy, with Richard Crenna co-starring. The series inspired a 1948 MGM film featuring Jane Powell, Wallace Beery, and Elizabeth Taylor, a television adaptation on ABC from 1951 to 1953, and a comic book published from 1947 to 1960."
+  },
+  {
+    "seg_idx": 20,
+    "nll": 0.004486083984375,
+    "rouge_l": 1.0,
+    "generated": "\"Do not go gentle into that good night,\" the most famous work of Welsh poet Dylan Thomas (1914–1953), is a villanelle written in 1947, first published in 1951 in Botteghe Oscure, and later in his 1952 collection *In Country Sleep, And Other Poems*. Its refrains, \"Do not go gentle into that good night\" and \"Rage, rage against the dying of the light,\" are believed by some to be addressed to Thomas's dying father, who passed away just before Christmas 1952. The poem, still under copyright, has seen widespread use",
+    "reference": "\"Do not go gentle into that good night,\" the most famous work of Welsh poet Dylan Thomas (1914–1953), is a villanelle written in 1947, first published in 1951 in Botteghe Oscure, and later in his 1952 collection *In Country Sleep, And Other Poems*. Its refrains, \"Do not go gentle into that good night\" and \"Rage, rage against the dying of the light,\" are believed by some to be addressed to Thomas's dying father, who passed away just before Christmas 1952. The poem, still under copyright, has seen widespread use in popular culture, including Igor Stravinsky's 1954 *In Memoriam Dylan Thomas*, Ceri Richards' paintings (1954, 1956, 1965), George R. R. Martin's 1977 novel *Dying of the Light*, and adaptations in films like *Back to School* (1986), *Independence Day* (1996), and *Interstellar* (2014)."
+  },
+  {
+    "seg_idx": 21,
+    "nll": 0.004119873046875,
+    "rouge_l": 1.0,
+    "generated": "The 77th U.S. Open, held June 16–19, 1977, at Southern Hills Country Club in Tulsa, Oklahoma, saw Hubert Green win his first major title by one stroke over Lou Graham. Green overcame a death threat on the 15th hole to secure victory. This event marked the final U.S. Open for legends Sam Snead, Julius Boros, and Tommy Bolt, all of whom missed the cut. The broadcast was the first to cover all 18 holes of the final round, and Southern Hills' third major championship hosted, having previously held the 1958 U.S. Open",
+    "reference": "The 77th U.S. Open, held June 16–19, 1977, at Southern Hills Country Club in Tulsa, Oklahoma, saw Hubert Green win his first major title by one stroke over Lou Graham. Green overcame a death threat on the 15th hole to secure victory. This event marked the final U.S. Open for legends Sam Snead, Julius Boros, and Tommy Bolt, all of whom missed the cut. The broadcast was the first to cover all 18 holes of the final round, and Southern Hills' third major championship hosted, having previously held the 1958 U.S. Open and 1970 PGA Championship."
+  },
+  {
+    "seg_idx": 22,
+    "nll": 0.038330078125,
+    "rouge_l": 0.07194244604316546,
+    "generated": "Question, MVP and Defensive Player of the Year.<|end_of_text|>",
+    "reference": "The Super Bowl MVP award, presented since 1967, recognizes the most valuable player of the NFL championship game. Chosen by a combination of media panel (80%) and fan votes (20%), first introduced in 2001 at Super Bowl XXXV, the award has been presented by the NFL since 1990 and includes the Pete Rozelle Trophy. Joe Montana and Tom Brady have won three MVPs each. Bart Starr, the MVP of the first two Super Bowls, and Terry Bradshaw, are the only players to win twice consecutively. Chuck Howley in Super Bowl V is the only MVP from a losing team, and Harvey Martin and Randy White were co-MVPs in Super Bowl XII."
+  },
+  {
+    "seg_idx": 23,
+    "nll": 0.00445556640625,
+    "rouge_l": 1.0,
+    "generated": "The Curragh Racecourse, near Newbridge, County Kildare, Ireland, is Ireland's premier Thoroughbred race track, named from the Irish \"Cuirreach.\" First recorded races were in 1727, with the first Derby in 1866, and it was officially declared a horse racing facility in 1868. This horseshoe-shaped, right-handed course hosts Ireland's highest quality Flat racing and all 5 Irish classics, with 10 of the 12 Group One races scheduled there in 2007. Kildare railway station serves the course, while the former Curragh Racecourse railway station",
+    "reference": "The Curragh Racecourse, near Newbridge, County Kildare, Ireland, is Ireland's premier Thoroughbred race track, named from the Irish \"Cuirreach.\" First recorded races were in 1727, with the first Derby in 1866, and it was officially declared a horse racing facility in 1868. This horseshoe-shaped, right-handed course hosts Ireland's highest quality Flat racing and all 5 Irish classics, with 10 of the 12 Group One races scheduled there in 2007. Kildare railway station serves the course, while the former Curragh Racecourse railway station closed in 1977 but sometimes reopens for the Irish Derby."
+  },
+  {
+    "seg_idx": 24,
+    "nll": 0.005706787109375,
+    "rouge_l": 1.0,
+    "generated": "Bendorf, located in the Mayen-Koblenz district of Rhineland-Palatinate, Germany, is a town on the Rhine river, 7 km north of Koblenz, comprising the districts of Bendorf, Sayn, Mülhofen, and Stromberg. Historically dominated by mining and metallurgy from the 18th century, with the Sayner Hütte and ores from the Trierischer Loh mine, Bendorf's Rhine port was established in 1900 and now handles oil storage. The former industrial city now features many retail stores, supported by the B",
+    "reference": "Bendorf, located in the Mayen-Koblenz district of Rhineland-Palatinate, Germany, is a town on the Rhine river, 7 km north of Koblenz, comprising the districts of Bendorf, Sayn, Mülhofen, and Stromberg. Historically dominated by mining and metallurgy from the 18th century, with the Sayner Hütte and ores from the Trierischer Loh mine, Bendorf's Rhine port was established in 1900 and now handles oil storage. The former industrial city now features many retail stores, supported by the Bendorf Focus traders' association. The Bendorf Vierwindenhöhe FM radio transmitter is also situated there. Heinrich Böll's story \"Wanderer, kommst du nach Spa...\" is set in Bendorf."
+  },
+  {
+    "seg_idx": 25,
+    "nll": 0.005828857421875,
+    "rouge_l": 1.0,
+    "generated": "\"Makin' It,\" an American sitcom starring David Naughton as disco dancer Billy Manucci in Passaic, New Jersey, aired on ABC for nine episodes from February 1 to March 23, 1979, and on ITV in the UK from March 21, 1979. The show, set in the late 1970s and influenced by \"Saturday Night Fever,\" depicted Manucci's life working at Tasty Treats and frequenting the Inferno disco. Despite producer Robert Stigwood's involvement, the series was canceled due to the declining disco fad. The theme song, sung by Naughton",
+    "reference": "\"Makin' It,\" an American sitcom starring David Naughton as disco dancer Billy Manucci in Passaic, New Jersey, aired on ABC for nine episodes from February 1 to March 23, 1979, and on ITV in the UK from March 21, 1979. The show, set in the late 1970s and influenced by \"Saturday Night Fever,\" depicted Manucci's life working at Tasty Treats and frequenting the Inferno disco. Despite producer Robert Stigwood's involvement, the series was canceled due to the declining disco fad. The theme song, sung by Naughton, reached #5 on the Billboard Top 40 in 1979. TV Guide ranked it #40 on its \"50 Worst TV Shows of All Time\" list in 2002."
+  },
+  {
+    "seg_idx": 26,
+    "nll": 0.020263671875,
+    "rouge_l": 0.0703125,
+    "generated": "AndyQuestioningAndy Thomson_Martin Thomson_2005 Thomson_2006 Thomson_2007 Thomson_2008 Thomson_2009 Thomson_2010 Thomson_2011 Thomson_2012 Thomson_2013 Thomson_2014 Thomson_2015 Thomson_2016 Thomson_2017 Thomson_2018 Thomson_2019 Thomson_2020 Thomson_2021 Thomson_2022 Thomson_2023 Thomson_2024 Thomson_2025 Thomson_2026 Thomson_2027 Thomson_2028 Thomson_2029 Thomson_2030 Thomson_2031 Thomson_2032 Thomson_2033 Thomson_2034 Thomson",
+    "reference": "Andy Thomson MBE, born in Fife, Scotland on 26 November 1955, is a distinguished lawn and indoor bowler who represented Scotland before switching to England. His career highlights include winning the Buckhaven Club Championship at 16, the Fife under-30 championship, and the Scottish junior indoor title in 1978. He also claimed the 1981 EBA national singles. Thomson achieved significant international success, winning the World Indoor Bowls Championships Pairs title in 1993 with Gary Smith, followed by consecutive World Indoor Bowls Championships Men's Singles titles in 1994 and 1995. In 1996, he was part of the Men's Fours team that won the World Championships in Adelaide, Australia. He secured another World Indoor Pairs title and the World Matchplay championship in 2008. The WBT 2010 Awards Dinner honored him with the 'Lifetime Achievement' Award and his third World Indoor Pairs title. In 2012, he won his third World Indoor Singles title, and later spoke out against the 2013 World Indoor Championships timing clock."
+  },
+  {
+    "seg_idx": 27,
+    "nll": 0.0081787109375,
+    "rouge_l": 1.0,
+    "generated": "\"Newbie,\" a slang term for a novice or newcomer, originated possibly in late twentieth-century U.S. Armed Forces jargon, though precursor terms date to the 1850s in the United States and Australia. While its etymology is uncertain, it likely derives from \"newie\" or British public school slang. Used in the 1960s–1970s among U.S. troops in the Vietnam War, it entered Internet usage by 1981, appearing on Usenet. Variants include \"newby,\" \"newbee\" (noted in the Los Angeles Times, August 1985, referring to Blue",
+    "reference": "\"Newbie,\" a slang term for a novice or newcomer, originated possibly in late twentieth-century U.S. Armed Forces jargon, though precursor terms date to the 1850s in the United States and Australia. While its etymology is uncertain, it likely derives from \"newie\" or British public school slang. Used in the 1960s–1970s among U.S. troops in the Vietnam War, it entered Internet usage by 1981, appearing on Usenet. Variants include \"newby,\" \"newbee\" (noted in the Los Angeles Times, August 1985, referring to Blue Angels rookies), and \"noob\" (often \"n00b\"), a derogatory term for inexperienced gamers, which was considered by the Global Language Monitor."
+  },
+  {
+    "seg_idx": 28,
+    "nll": 0.036865234375,
+    "rouge_l": 0.078125,
+    "generated": "Question question 1\nThe first question is about the 2010 Census.  The Census Bureau is responsible for conducting the census every 10 years.  The Census Bureau is an independent agency of the U.S. Government.  The Census Bureau is responsible for conducting the census every 10 years.  The Census Bureau is an independent agency of the U.S. Government.  The Census Bureau is responsible for conducting the census every 10 years.  The Census Bureau is an independent agency of the U.S. Government.  The Census Bureau is responsible for conducting the census every 10 years.",
+    "reference": "\"I'm Gonna Wash That Man Right Outa My Hair,\" from Rodgers and Hammerstein's 1949 musical *South Pacific*, is sung by Nellie Forbush, originally portrayed by Mary Martin. The energetic shower scene song, inspired by Martin's Broadway requests, expresses her desire to forget Emile De Becque. The song was later adapted for a 1970s Clairol commercial, referenced by PJ Harvey in 1992's \"Sheela-Na-Gig,\" and echoed in 50 Foot Wave's \"Bone China.\" Nia Vardalos and Toni Collette covered it in the 2004 film *Connie and Carla*. A notable recording features Diana Miller and Arne Domnérus from September 22, 1952, released on His Master's Voice X 7829."
+  },
+  {
+    "seg_idx": 29,
+    "nll": 0.0027618408203125,
+    "rouge_l": 1.0,
+    "generated": "The document details the prolific Broadway songwriting partnership of Alan Jay Lerner and Frederick Loewe. They met in 1942 in New York City and collaborated on successful musicals like *My Fair Lady*, *Camelot*, and *Brigadoon*, as well as the 1974 film *The Little Prince*. Despite Lerner's dominance in demanding lyrical work and Loewe's patience, they maintained a close friendship until their deaths, their final public appearance being a Kennedy Center Honor in December 1985, six months before Lerner's passing.<|end_of_text|>",
+    "reference": "The document details the prolific Broadway songwriting partnership of Alan Jay Lerner and Frederick Loewe. They met in 1942 in New York City and collaborated on successful musicals like *My Fair Lady*, *Camelot*, and *Brigadoon*, as well as the 1974 film *The Little Prince*. Despite Lerner's dominance in demanding lyrical work and Loewe's patience, they maintained a close friendship until their deaths, their final public appearance being a Kennedy Center Honor in December 1985, six months before Lerner's passing."
+  },
+  {
+    "seg_idx": 30,
+    "nll": 0.00225830078125,
+    "rouge_l": 1.0,
+    "generated": "Founded in 1989, the City Parks Foundation is a leading independent nonprofit organization in New York City, offering free arts, sports, and education programs across all five boroughs and over 750 parks. Highlights include the Central Park SummerStage and Charlie Parker Jazz Festival, youth sports initiatives like CityParks Tennis and a Junior Golf Center near Dyker Beach Public Golf Course, and educational programs reaching over 7,000 students and 500 teachers annually. The foundation also partners with the NYC Department of Parks and Recreation for Partnerships for Parks, engaging over 60,000 volunteers yearly.<|end_of_text|>",
+    "reference": "Founded in 1989, the City Parks Foundation is a leading independent nonprofit organization in New York City, offering free arts, sports, and education programs across all five boroughs and over 750 parks. Highlights include the Central Park SummerStage and Charlie Parker Jazz Festival, youth sports initiatives like CityParks Tennis and a Junior Golf Center near Dyker Beach Public Golf Course, and educational programs reaching over 7,000 students and 500 teachers annually. The foundation also partners with the NYC Department of Parks and Recreation for Partnerships for Parks, engaging over 60,000 volunteers yearly."
+  },
+  {
+    "seg_idx": 31,
+    "nll": 0.006561279296875,
+    "rouge_l": 1.0,
+    "generated": "\"It Takes Two\" was a hit single recorded in late 1965 by Marvin Gaye and Kim Weston for Motown's Tamla label, produced by William \"Mickey\" Stevenson and co-written by Stevenson and Sylvia Moy. The romantic duet peaked at #14 on the Billboard Pop charts and #4 on the Soul Singles chart in January 1967, also reaching #16 in the UK that spring. In 1990, Rod Stewart and Tina Turner released a successful European cover produced by Bernard Edwards for Stewart's album Vagabond Heart. Other versions include a 2009 album by Nianell and Dozi.",
+    "reference": "\"It Takes Two\" was a hit single recorded in late 1965 by Marvin Gaye and Kim Weston for Motown's Tamla label, produced by William \"Mickey\" Stevenson and co-written by Stevenson and Sylvia Moy. The romantic duet peaked at #14 on the Billboard Pop charts and #4 on the Soul Singles chart in January 1967, also reaching #16 in the UK that spring. In 1990, Rod Stewart and Tina Turner released a successful European cover produced by Bernard Edwards for Stewart's album Vagabond Heart. Other versions include a 2009 album by Nianell and Dozi."
+  },
+  {
+    "seg_idx": 32,
+    "nll": 0.00469970703125,
+    "rouge_l": 1.0,
+    "generated": "\"Shakedown,\" a song by Bob Seger from the *Beverly Hills Cop II* soundtrack, was written by Harold Faltermeyer and Keith Forsey, with lyrics by Seger. It reached number one on the Billboard Hot 100 and Album Rock Tracks charts, and also topped the RPM 100 in Canada on August 1. Nominated for an Academy Award and Golden Globe in 1988, it lost both to \"(I've Had) The Time of My Life.\" Glenn Frey was initially asked to record it but passed, leading to Seger's involvement. The song was later performed by Little Richard at the",
+    "reference": "\"Shakedown,\" a song by Bob Seger from the *Beverly Hills Cop II* soundtrack, was written by Harold Faltermeyer and Keith Forsey, with lyrics by Seger. It reached number one on the Billboard Hot 100 and Album Rock Tracks charts, and also topped the RPM 100 in Canada on August 1. Nominated for an Academy Award and Golden Globe in 1988, it lost both to \"(I've Had) The Time of My Life.\" Glenn Frey was initially asked to record it but passed, leading to Seger's involvement. The song was later performed by Little Richard at the 60th Academy Awards and appeared in *Alvin and the Chipmunks*."
+  },
+  {
+    "seg_idx": 33,
+    "nll": 0.007720947265625,
+    "rouge_l": 1.0,
+    "generated": "The Province of Verona, located in Italy's Veneto region, is bordered by Italian Tyrol, Provinces of Vicenza, Padua, Rovigo, and Mantua, and Lake Garda. Its capital, the city of Verona, a UNESCO World Heritage Site and inspiration for Shakespeare's *Romeo and Juliet*, is a major tourist attraction. This cosmopolitan province covers 3109 km², with a population of approximately 0.9 million across 98 comuni. Key features include a regional park in Lessinia, the wine region of Valpolicella, Europe's biggest natural bridge, Pont",
+    "reference": "The Province of Verona, located in Italy's Veneto region, is bordered by Italian Tyrol, Provinces of Vicenza, Padua, Rovigo, and Mantua, and Lake Garda. Its capital, the city of Verona, a UNESCO World Heritage Site and inspiration for Shakespeare's *Romeo and Juliet*, is a major tourist attraction. This cosmopolitan province covers 3109 km², with a population of approximately 0.9 million across 98 comuni. Key features include a regional park in Lessinia, the wine region of Valpolicella, Europe's biggest natural bridge, Ponte di Veja, and numerous historical sites, with its northern area being hilly and traversed by rivers like the Adige."
+  },
+  {
+    "seg_idx": 34,
+    "nll": 0.00640869140625,
+    "rouge_l": 1.0,
+    "generated": "The Hampstead & Highgate parliamentary constituency, encompassing parts of the London Borough of Camden including Hampstead and Highgate, was abolished after the 2010 general election. Its territory was largely absorbed into the new Hampstead and Kilburn constituency, with a portion going to Holborn and St Pancras. This seat, known for its intellectual and artistic middle-class vote, notably included Kilburn's large Irish community. Glenda Jackson, the Labour incumbent at abolition, successfully defended the successor Hampstead and Kilburn seat in 2010 with a narrow majority of 42 votes.<|end_of_text|>",
+    "reference": "The Hampstead & Highgate parliamentary constituency, encompassing parts of the London Borough of Camden including Hampstead and Highgate, was abolished after the 2010 general election. Its territory was largely absorbed into the new Hampstead and Kilburn constituency, with a portion going to Holborn and St Pancras. This seat, known for its intellectual and artistic middle-class vote, notably included Kilburn's large Irish community. Glenda Jackson, the Labour incumbent at abolition, successfully defended the successor Hampstead and Kilburn seat in 2010 with a narrow majority of 42 votes."
+  },
+  {
+    "seg_idx": 35,
+    "nll": 0.0031890869140625,
+    "rouge_l": 1.0,
+    "generated": "\"Weekend World\" was a British political television series produced by London Weekend Television (LWT) and aired on ITV from 1972 to 1988. Created by John Birt, it began by featuring multiple stories but evolved to focus on in-depth interviews with political figures. Originally presented by Peter Jay, the series later featured Brian Walden (1977-1986) and Matthew Parris (1986-1988). Birt's innovative approach combined creative directors with experienced reporters, and the show was noted for its early coverage of the Watergate break-in. The series concluded in 1988.<|end_of_text|>",
+    "reference": "\"Weekend World\" was a British political television series produced by London Weekend Television (LWT) and aired on ITV from 1972 to 1988. Created by John Birt, it began by featuring multiple stories but evolved to focus on in-depth interviews with political figures. Originally presented by Peter Jay, the series later featured Brian Walden (1977-1986) and Matthew Parris (1986-1988). Birt's innovative approach combined creative directors with experienced reporters, and the show was noted for its early coverage of the Watergate break-in. The series concluded in 1988."
+  },
+  {
+    "seg_idx": 36,
+    "nll": 0.026611328125,
+    "rouge_l": 0.09375,
+    "generated": "Question Question Answer\nThe 2nd and 3rd arguments to the constructor should be the name and the email, respectively. The 4th argument should be the password. The 5th argument should be the name of the user's role. The 6th argument should be the name of the user's role. The 7th argument should be the name of the user's role. The 8th argument should be the name of the user's role. The 9th argument should be the name of the user's role. The 10th argument should be the name of the user's role. The ",
+    "reference": "The slogan \"The customer is always right,\" popularized by retailers like Harry Gordon Selfridge, John Wanamaker, and Marshall Field, emphasizes customer satisfaction and serious treatment of complaints. Variations include César Ritz's \"le client n'a jamais tort\" and the German \"der Kunde ist König.\" However, as early as 1914, it was noted that this policy could lead to losses due to dishonest or unrealistic customers. The document suggests that clarifying customer rights and verifying honesty can mitigate these issues. Currently, the motto can result in customers overusing their position, limiting service representatives' ability to refuse requests."
+  },
+  {
+    "seg_idx": 37,
+    "nll": 0.005157470703125,
+    "rouge_l": 1.0,
+    "generated": "Little Richard's second album for Reprise Records, *The King of Rock and Roll*, released in an unknown year, featured one original song, \"In The Name,\" and a single, \"Green Power.\" It also included covers of artists like Hank Williams and The Rolling Stones. The title track, referencing figures like Tom Jones and Elvis Presley, and the lack of acoustic piano, along with poor mixing, upset fans. *Rolling Stone* magazine gave it a negative review, with Vince Aletti calling it a \"jive extravaganza.\"<|end_of_text|>",
+    "reference": "Little Richard's second album for Reprise Records, *The King of Rock and Roll*, released in an unknown year, featured one original song, \"In The Name,\" and a single, \"Green Power.\" It also included covers of artists like Hank Williams and The Rolling Stones. The title track, referencing figures like Tom Jones and Elvis Presley, and the lack of acoustic piano, along with poor mixing, upset fans. *Rolling Stone* magazine gave it a negative review, with Vince Aletti calling it a \"jive extravaganza.\""
+  },
+  {
+    "seg_idx": 38,
+    "nll": 0.01019287109375,
+    "rouge_l": 1.0,
+    "generated": "The pisiform bone, a small, pea-shaped bone in the wrist, forms the ulnar border of the carpal tunnel and articulates only with the triquetral bone. Situated within the flexor carpi ulnaris tendon, its dorsal surface joins the triquetral, while its palmar surface attaches to ligaments and muscles. Unlike other carpal bones, it doesn't contribute to wrist movement. Its name originates from the Latin word for \"pea.\" Humans possess a shorter pisiform than apes, possibly due to evolutionary advantages like improved ulnar deviation and prevention of wrist hyperextension.<|end_of_text|>",
+    "reference": "The pisiform bone, a small, pea-shaped bone in the wrist, forms the ulnar border of the carpal tunnel and articulates only with the triquetral bone. Situated within the flexor carpi ulnaris tendon, its dorsal surface joins the triquetral, while its palmar surface attaches to ligaments and muscles. Unlike other carpal bones, it doesn't contribute to wrist movement. Its name originates from the Latin word for \"pea.\" Humans possess a shorter pisiform than apes, possibly due to evolutionary advantages like improved ulnar deviation and prevention of wrist hyperextension."
+  },
+  {
+    "seg_idx": 39,
+    "nll": 0.0031585693359375,
+    "rouge_l": 1.0,
+    "generated": "Dendrology, also known as xylology, is the science and study of wooded plants like trees, shrubs, and lianas, specifically focusing on their taxonomic classifications. While related to botany, dendrology is a specialized subcategory studying only woody plants, unlike botany's broader scope. As part of industrial forestry, it emphasizes economically useful woody plants, while as an academic course, it covers all woody plants in a region. Noted dendrologists include Mike Baillie, Ludwig Beissner, and Francis A. Bartlett.<|end_of_text|>",
+    "reference": "Dendrology, also known as xylology, is the science and study of wooded plants like trees, shrubs, and lianas, specifically focusing on their taxonomic classifications. While related to botany, dendrology is a specialized subcategory studying only woody plants, unlike botany's broader scope. As part of industrial forestry, it emphasizes economically useful woody plants, while as an academic course, it covers all woody plants in a region. Noted dendrologists include Mike Baillie, Ludwig Beissner, and Francis A. Bartlett."
+  },
+  {
+    "seg_idx": 40,
+    "nll": 0.006683349609375,
+    "rouge_l": 1.0,
+    "generated": "Thomas Harris, born April 11, 1940, is an American writer renowned for his Hannibal Lecter suspense novels, all adapted into films, notably the multi-Oscar-winning *The Silence of the Lambs* (1988). Harris, who attended Baylor University in Waco, Texas, and worked for the Waco Tribune-Herald and Associated Press, has largely avoided publicity since 1976. He lived in Jackson, Tennessee, and Rich, Mississippi, before moving to New York City. He has a daughter, Anne, from his marriage to Harriet. Harris currently resides in South Florida with his partner Pace Barnes,",
+    "reference": "Thomas Harris, born April 11, 1940, is an American writer renowned for his Hannibal Lecter suspense novels, all adapted into films, notably the multi-Oscar-winning *The Silence of the Lambs* (1988). Harris, who attended Baylor University in Waco, Texas, and worked for the Waco Tribune-Herald and Associated Press, has largely avoided publicity since 1976. He lived in Jackson, Tennessee, and Rich, Mississippi, before moving to New York City. He has a daughter, Anne, from his marriage to Harriet. Harris currently resides in South Florida with his partner Pace Barnes, and has a summer home in Sag Harbor, New York. His mother, Polly, died on December 31, 2011."
+  },
+  {
+    "seg_idx": 41,
+    "nll": 0.0054931640625,
+    "rouge_l": 1.0,
+    "generated": "\"Adam's ale,\" also known as \"Adam's wine\" in Scotland, is a colloquial term for water, alluding to the biblical Adam's presumed sole beverage in the Garden of Eden. This epithet gained significant traction around the 1830s with the rise of the temperance movement, which viewed water as a pure, natural drink. The earliest printed mention dates to William Prynne's 1643 work, and the phrase was poetically used by Philip Freneau in the late 18th century to support teetotalism. Usage declined by the mid- to late 20th century.<|end_of_text|>",
+    "reference": "\"Adam's ale,\" also known as \"Adam's wine\" in Scotland, is a colloquial term for water, alluding to the biblical Adam's presumed sole beverage in the Garden of Eden. This epithet gained significant traction around the 1830s with the rise of the temperance movement, which viewed water as a pure, natural drink. The earliest printed mention dates to William Prynne's 1643 work, and the phrase was poetically used by Philip Freneau in the late 18th century to support teetotalism. Usage declined by the mid- to late 20th century."
+  },
+  {
+    "seg_idx": 42,
+    "nll": 0.0096435546875,
+    "rouge_l": 1.0,
+    "generated": "\"Cartoon Heroes\" is a dance-pop song by Danish-Norwegian group Aqua, released worldwide on January 1, 2000, as their first single in over 14 months from the album *Aquarius*. While a commercial success, it reached the top ten in ten countries, a lesser achievement than earlier hits like \"Barbie Girl\" (1997). In Denmark, it debuted at number one and became the best-selling single of 2000 with 32,765 copies sold. The music video was filmed in January 2000. The song was released with various remixes on European and Australian CD singles in ",
+    "reference": "\"Cartoon Heroes\" is a dance-pop song by Danish-Norwegian group Aqua, released worldwide on January 1, 2000, as their first single in over 14 months from the album *Aquarius*. While a commercial success, it reached the top ten in ten countries, a lesser achievement than earlier hits like \"Barbie Girl\" (1997). In Denmark, it debuted at number one and became the best-selling single of 2000 with 32,765 copies sold. The music video was filmed in January 2000. The song was released with various remixes on European and Australian CD singles in 2000."
+  },
+  {
+    "seg_idx": 43,
+    "nll": 0.05615234375,
+    "rouge_l": 0.1796875,
+    "generated": "\"\" magic question question\" 1949, a BBC radio animal show that aired from 1948-1949. Saar was a chimpankey that appeared in 78 episodes from 1949-1958. Saar was a magical \"chimpanuk\" that was a muppet; \"animal magic\" was his power to transform into animals. \"Animal magic\" was 78 episodes too! It was a magic show featuring animals that could transform into animals! 1948-1949, 1949, 1950, 1951, 1952, 1953, 1954, ",
+    "reference": "\"Animal Magic\" was a BBC children's television series from BBC Bristol that aired from 1962 to 1983, initially fortnightly and then weekly from 1964. Hosted by Johnny Morris with various co-presenters, the show featured jovial voiceovers of animals from Bristol Zoo and educational content. Notable guests included Dottie the ring-tailed lemur for eight years in the 1970s. The 100th edition aired on 4 January 1967. Despite its popularity, the show was discontinued in 1983, with many episodes later junked by the BBC in the early 1990s."
+  },
+  {
+    "seg_idx": 44,
+    "nll": 0.003692626953125,
+    "rouge_l": 1.0,
+    "generated": "\"Give Me the Night,\" a 1980 album by American jazz guitarist and singer George Benson, was produced by Quincy Jones on Qwest Records and Warner Bros. Records. Released in the summer of 1980, it hit number one on the Top Soul Albums and Jazz Albums charts and number three on the Billboard Pop Albums chart. The lead single, \"Give Me the Night,\" topped the Soul Singles chart, and \"Moody's Mood\" featured R&B singer Patti Austin. Certified Platinum by the RIAA, the album earned Benson three Grammy Awards in 1981. Quincy Jones and Jerry Hey also won a Grammy for",
+    "reference": "\"Give Me the Night,\" a 1980 album by American jazz guitarist and singer George Benson, was produced by Quincy Jones on Qwest Records and Warner Bros. Records. Released in the summer of 1980, it hit number one on the Top Soul Albums and Jazz Albums charts and number three on the Billboard Pop Albums chart. The lead single, \"Give Me the Night,\" topped the Soul Singles chart, and \"Moody's Mood\" featured R&B singer Patti Austin. Certified Platinum by the RIAA, the album earned Benson three Grammy Awards in 1981. Quincy Jones and Jerry Hey also won a Grammy for \"Dinorah, Dinorah.\""
+  },
+  {
+    "seg_idx": 45,
+    "nll": 0.00738525390625,
+    "rouge_l": 1.0,
+    "generated": "No. 2 Court, located at the All England Lawn Tennis and Croquet Club in Wimbledon, London, was known as the \"Graveyard of Champions\" due to numerous upsets, including those of Evonne Goolagong (1974), John McEnroe (1979), Jimmy Connors (1983, 1988), Pete Sampras (2002), and Serena Williams (2005). The original No. 2 Court, with a capacity of 2,192 + 770, was renumbered as No. 3 Court and demolished by the 2011 Championships to make way for new",
+    "reference": "No. 2 Court, located at the All England Lawn Tennis and Croquet Club in Wimbledon, London, was known as the \"Graveyard of Champions\" due to numerous upsets, including those of Evonne Goolagong (1974), John McEnroe (1979), Jimmy Connors (1983, 1988), Pete Sampras (2002), and Serena Williams (2005). The original No. 2 Court, with a capacity of 2,192 + 770, was renumbered as No. 3 Court and demolished by the 2011 Championships to make way for new courts. A new No. 2 Court with a 4,000 capacity was established for the 2009 Championships on the site of the former No. 13 court."
+  },
+  {
+    "seg_idx": 46,
+    "nll": 0.00897216796875,
+    "rouge_l": 1.0,
+    "generated": "The Bluebells were a Scottish indie rock band active from 1981 to 1986, with later brief reunions. They had three UK Top 40 hits, including the number 8 single \"Young at Heart\" in 1984, co-written with Siobhan Fahey. The band released one album, *Sisters*, and an EP. \"Young at Heart\" re-entered the charts at number one in 1993 after a Volkswagen advertisement, leading to a temporary reunion. Members included Robert Hodgens (Bobby Bluebell), David and Ken McCluskey, and Lawrence Donegan. Post-Blue",
+    "reference": "The Bluebells were a Scottish indie rock band active from 1981 to 1986, with later brief reunions. They had three UK Top 40 hits, including the number 8 single \"Young at Heart\" in 1984, co-written with Siobhan Fahey. The band released one album, *Sisters*, and an EP. \"Young at Heart\" re-entered the charts at number one in 1993 after a Volkswagen advertisement, leading to a temporary reunion. Members included Robert Hodgens (Bobby Bluebell), David and Ken McCluskey, and Lawrence Donegan. Post-Bluebells, Donegan became a golf correspondent, while the McCluskey brothers pursued folk music and music education."
+  },
+  {
+    "seg_idx": 47,
+    "nll": 0.00732421875,
+    "rouge_l": 1.0,
+    "generated": "Jemini, a British pop group from Liverpool, gained notoriety for their 2003 Eurovision Song Contest performance in Riga, Latvia, where their song \"Cry Baby\" scored \"nul points,\" finishing last. Formed by Chris Cromby and Gemma Abbey (born 1982) after meeting in 1995, they initially performed covers before selecting \"Cry Baby\" via a BBC poll. Despite attributing their off-key performance to a technical fault, the Eurovision failure led to their record label dropping them and the cancellation of their album. The duo, who reunited for BBC and Pointless Celebrities",
+    "reference": "Jemini, a British pop group from Liverpool, gained notoriety for their 2003 Eurovision Song Contest performance in Riga, Latvia, where their song \"Cry Baby\" scored \"nul points,\" finishing last. Formed by Chris Cromby and Gemma Abbey (born 1982) after meeting in 1995, they initially performed covers before selecting \"Cry Baby\" via a BBC poll. Despite attributing their off-key performance to a technical fault, the Eurovision failure led to their record label dropping them and the cancellation of their album. The duo, who reunited for BBC and Pointless Celebrities specials in 2013 and 2014 respectively, had a single, \"Cry Baby,\" chart at #15."
+  },
+  {
+    "seg_idx": 48,
+    "nll": 0.0257568359375,
+    "rouge_l": 0.15625,
+    "generated": "Question:Calgary Ropes, 4,000, 4,000, 4,000, 4,000, 4,000, 4,000, 4,000, 4,000, 4,000, 4,000, 4,000, 4,000, 4,000, 4,000, 4,000, 4,000, 4,000, 4,000, 4,000, 4,000, 4,000, 4,000, 4,000, 4,000, ",
+    "reference": "Calgary Foothills FC (CFFC), founded in 1972 and as a PDL franchise in 2015, is a Canadian soccer club based in Calgary, Alberta, competing in the Premier Development League. Playing home games at Glenmore Athletic Park with green and white colours, CFFC's inaugural PDL game was a 2-1 win against Puget Sound on May 17, 2015. They finished 4th in the Northwest Division in 2015, but in 2016, won the division and the Western Conference playoffs, eventually reaching the PDL Final. The supporters' group, The Foot Soldiers, formed in February 2015. Notable staff included Head Coach Tommy Wheeldon Jr. as of May 12, 2016."
+  },
+  {
+    "seg_idx": 49,
+    "nll": 0.0023193359375,
+    "rouge_l": 1.0,
+    "generated": "Chaetophobia is a specific phobia characterized by an intense fear of hair, whether human or animal, which can be triggered by a negative experience, hair loss, or concerns about cleanliness. Sufferers may fear excess hair on others, their own bodies, or even loose strands, with some linking it to germaphobia. This fear can lead to obsessions with hair removal and discomfort in hair-related environments. Treatment involves therapy, medication, support groups, and relaxation techniques to manage the anxiety associated with the phobia, which derives its name from the Greek words for \"loose hair\" and \"fear.\"<|end_of_text|>",
+    "reference": "Chaetophobia is a specific phobia characterized by an intense fear of hair, whether human or animal, which can be triggered by a negative experience, hair loss, or concerns about cleanliness. Sufferers may fear excess hair on others, their own bodies, or even loose strands, with some linking it to germaphobia. This fear can lead to obsessions with hair removal and discomfort in hair-related environments. Treatment involves therapy, medication, support groups, and relaxation techniques to manage the anxiety associated with the phobia, which derives its name from the Greek words for \"loose hair\" and \"fear.\""
+  }
+]
