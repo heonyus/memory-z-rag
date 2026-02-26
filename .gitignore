@@ -1,7 +1,6 @@
 __pycache__/
 *.pyc
 .env
-runs/
 data/*.csv
-*.pt
+experiments/**/runs/**/*.pt
 .venv/
