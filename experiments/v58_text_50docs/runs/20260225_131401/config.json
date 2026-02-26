@@ -1,0 +1,18 @@
+{
+  "llm_name": "meta-llama/Llama-3.2-3B",
+  "csv_path": "data/docs_triviaqa_50.csv",
+  "text_column": "text",
+  "num_docs": 50,
+  "segment_len": 128,
+  "optimizer": "sgd",
+  "lr": 5.0,
+  "epochs": 3000,
+  "grad_clip": 1.0,
+  "contrastive_lambda": 0.1,
+  "contrastive_temperature": 0.07,
+  "checkpoint_every": 500,
+  "early_stop_patience": 100,
+  "max_new_tokens": 256,
+  "seed": 42,
+  "save_dir": "experiments/v58_text_50docs/runs"
+}
