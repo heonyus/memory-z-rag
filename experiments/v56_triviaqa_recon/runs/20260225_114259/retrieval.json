@@ -1,0 +1,611 @@
+{
+  "metrics": {
+    "top1_acc": 0.1,
+    "top3_acc": 0.14,
+    "top5_acc": 0.28,
+    "mrr": 0.1975929458811996,
+    "num_queries": 50
+  },
+  "examples": [
+    {
+      "doc_idx": 0,
+      "query": "In which branch of the arts is Patricia Neary famous?",
+      "rank": 36,
+      "top5": [
+        168,
+        32,
+        156,
+        37,
+        17
+      ]
+    },
+    {
+      "doc_idx": 1,
+      "query": "Who wrote the novel Evening Class?",
+      "rank": 5,
+      "top5": [
+        1,
+        175,
+        43,
+        66,
+        30
+      ]
+    },
+    {
+      "doc_idx": 2,
+      "query": "Who had the noels Spy Hook and Spy Line published in the 80s?",
+      "rank": 0,
+      "top5": [
+        7,
+        156,
+        123,
+        47,
+        161
+      ]
+    },
+    {
+      "doc_idx": 3,
+      "query": "Who had a 70s No 1 hit with Let Your Love Flow?",
+      "rank": 55,
+      "top5": [
+        66,
+        59,
+        174,
+        47,
+        70
+      ]
+    },
+    {
+      "doc_idx": 4,
+      "query": "Who had a 60s No 1 with Lightnin' Strikes?",
+      "rank": 7,
+      "top5": [
+        161,
+        174,
+        135,
+        129,
+        22
+      ]
+    },
+    {
+      "doc_idx": 5,
+      "query": "Which famous brother of Talia Shire does not share her last name?",
+      "rank": 2,
+      "top5": [
+        156,
+        30,
+        17,
+        146,
+        34
+      ]
+    },
+    {
+      "doc_idx": 6,
+      "query": "Who had a big 60s No 1 with Tossin' and Turnin'?",
+      "rank": 16,
+      "top5": [
+        174,
+        63,
+        161,
+        92,
+        66
+      ]
+    },
+    {
+      "doc_idx": 7,
+      "query": "Luxor international airport is in which country?",
+      "rank": 7,
+      "top5": [
+        152,
+        37,
+        11,
+        120,
+        161
+      ]
+    },
+    {
+      "doc_idx": 8,
+      "query": "Who had 70s hits with Have You Seen Her and Oh Girl?",
+      "rank": 16,
+      "top5": [
+        135,
+        66,
+        129,
+        52,
+        175
+      ]
+    },
+    {
+      "doc_idx": 9,
+      "query": "The Last Of The Really Great Whangdoodles and Mandy are children's books written by what well-known Oscar-winning actress?",
+      "rank": 4,
+      "top5": [
+        66,
+        129,
+        59,
+        175,
+        32
+      ]
+    },
+    {
+      "doc_idx": 10,
+      "query": "Who had a big 90s No 1 with This Is How We Do It?",
+      "rank": 17,
+      "top5": [
+        70,
+        76,
+        66,
+        59,
+        175
+      ]
+    },
+    {
+      "doc_idx": 11,
+      "query": "In what year were women first admitted to Harvard?",
+      "rank": 11,
+      "top5": [
+        37,
+        17,
+        121,
+        161,
+        1
+      ]
+    },
+    {
+      "doc_idx": 12,
+      "query": "Who had 70s No 1 hit with Show and Tell?",
+      "rank": 82,
+      "top5": [
+        174,
+        161,
+        66,
+        156,
+        70
+      ]
+    },
+    {
+      "doc_idx": 13,
+      "query": "When was the Scrabble World championship first held?",
+      "rank": 25,
+      "top5": [
+        86,
+        156,
+        37,
+        30,
+        70
+      ]
+    },
+    {
+      "doc_idx": 14,
+      "query": "Ellen Church is recognized as being the first female what?",
+      "rank": 5,
+      "top5": [
+        156,
+        146,
+        192,
+        161,
+        2
+      ]
+    },
+    {
+      "doc_idx": 15,
+      "query": "Who did Debbie play in The Debbie Reynolds Show?",
+      "rank": 13,
+      "top5": [
+        81,
+        47,
+        59,
+        177,
+        175
+      ]
+    },
+    {
+      "doc_idx": 16,
+      "query": "Which character did Betty White play in The Betty White Show?",
+      "rank": 6,
+      "top5": [
+        81,
+        156,
+        66,
+        88,
+        140
+      ]
+    },
+    {
+      "doc_idx": 17,
+      "query": "Ed Gagliardi, Al Greenwood and Dennis Elliot have all been in which group?",
+      "rank": 4,
+      "top5": [
+        156,
+        52,
+        34,
+        146,
+        63
+      ]
+    },
+    {
+      "doc_idx": 18,
+      "query": "Which Julie won an Oscar for Darling in 1965 and was Oscar nominated in 19987 for Afterglow?",
+      "rank": 15,
+      "top5": [
+        161,
+        156,
+        192,
+        101,
+        174
+      ]
+    },
+    {
+      "doc_idx": 19,
+      "query": "What was the last name of Judy in radio's A Date With Judy series?",
+      "rank": 4,
+      "top5": [
+        119,
+        59,
+        120,
+        156,
+        72
+      ]
+    },
+    {
+      "doc_idx": 20,
+      "query": "\"Who wrote the line, \"\"Do not go gentle into that good night?\"",
+      "rank": 11,
+      "top5": [
+        156,
+        52,
+        10,
+        27,
+        122
+      ]
+    },
+    {
+      "doc_idx": 21,
+      "query": "Where was golf's 1977 US Open held?",
+      "rank": 60,
+      "top5": [
+        33,
+        174,
+        129,
+        119,
+        186
+      ]
+    },
+    {
+      "doc_idx": 22,
+      "query": "Who was the first MVP in a Super Bowl to be on the losing side?",
+      "rank": 4,
+      "top5": [
+        37,
+        63,
+        173,
+        177,
+        86
+      ]
+    },
+    {
+      "doc_idx": 23,
+      "query": "The Curragh is in which country?",
+      "rank": 3,
+      "top5": [
+        32,
+        59,
+        66,
+        90,
+        47
+      ]
+    },
+    {
+      "doc_idx": 24,
+      "query": "In which country is the Bendorf bridge?",
+      "rank": 9,
+      "top5": [
+        59,
+        168,
+        34,
+        161,
+        152
+      ]
+    },
+    {
+      "doc_idx": 25,
+      "query": "In Makin' It, who was the John Travolta-type character?",
+      "rank": 33,
+      "top5": [
+        10,
+        148,
+        129,
+        32,
+        156
+      ]
+    },
+    {
+      "doc_idx": 26,
+      "query": "In which sport did Andy Thomson become a world champion?",
+      "rank": 20,
+      "top5": [
+        156,
+        17,
+        1,
+        154,
+        129
+      ]
+    },
+    {
+      "doc_idx": 27,
+      "query": "A newbie is a new what?",
+      "rank": 20,
+      "top5": [
+        129,
+        47,
+        92,
+        161,
+        59
+      ]
+    },
+    {
+      "doc_idx": 28,
+      "query": "I'm Gonna Wash That Man Right Out of My Hair came from which show?",
+      "rank": 0,
+      "top5": [
+        108,
+        140,
+        63,
+        168,
+        34
+      ]
+    },
+    {
+      "doc_idx": 29,
+      "query": "Which musical was Lerner and Loewe's last major success, in 1960?",
+      "rank": 6,
+      "top5": [
+        156,
+        161,
+        34,
+        120,
+        146
+      ]
+    },
+    {
+      "doc_idx": 30,
+      "query": "Which city hosts the Charlie Parker Jazz Festival?",
+      "rank": 22,
+      "top5": [
+        156,
+        123,
+        32,
+        99,
+        168
+      ]
+    },
+    {
+      "doc_idx": 31,
+      "query": "What was advertised by Rod Stewart and Tina Turner's version of It Takes Two?",
+      "rank": 3,
+      "top5": [
+        156,
+        129,
+        76,
+        119,
+        34
+      ]
+    },
+    {
+      "doc_idx": 32,
+      "query": "Who had a 1980s No 1 hit with Shakedown?",
+      "rank": 8,
+      "top5": [
+        161,
+        174,
+        156,
+        63,
+        22
+      ]
+    },
+    {
+      "doc_idx": 33,
+      "query": "On which river does Verona stand?",
+      "rank": 29,
+      "top5": [
+        154,
+        32,
+        98,
+        34,
+        156
+      ]
+    },
+    {
+      "doc_idx": 34,
+      "query": "Which British actress won the Hampstead and Highgate seat for Labour in the 1992 General Election?",
+      "rank": 6,
+      "top5": [
+        161,
+        17,
+        34,
+        177,
+        174
+      ]
+    },
+    {
+      "doc_idx": 35,
+      "query": "Which political commentator has presented both Weekend World and A Week in Politics?",
+      "rank": 1,
+      "top5": [
+        156,
+        132,
+        120,
+        27,
+        150
+      ]
+    },
+    {
+      "doc_idx": 36,
+      "query": "\"Who said: \"\"The customer is always right\"\"?\"",
+      "rank": 0,
+      "top5": [
+        136,
+        160,
+        10,
+        156,
+        122
+      ]
+    },
+    {
+      "doc_idx": 37,
+      "query": "Who was the king of rock and roll?",
+      "rank": 49,
+      "top5": [
+        34,
+        156,
+        161,
+        64,
+        38
+      ]
+    },
+    {
+      "doc_idx": 38,
+      "query": "Where would you find the pisiform bone?",
+      "rank": 4,
+      "top5": [
+        156,
+        187,
+        86,
+        120,
+        146
+      ]
+    },
+    {
+      "doc_idx": 39,
+      "query": "In nature, what does a dendrologist study?",
+      "rank": 7,
+      "top5": [
+        70,
+        39,
+        156,
+        59,
+        146
+      ]
+    },
+    {
+      "doc_idx": 40,
+      "query": "Which Thomas Harris novel was the top selling adult fiction novel of the year 2000 in the UK?",
+      "rank": 18,
+      "top5": [
+        161,
+        120,
+        129,
+        168,
+        123
+      ]
+    },
+    {
+      "doc_idx": 41,
+      "query": "Which drink is sometimes referred to as Adam's ale?",
+      "rank": 12,
+      "top5": [
+        37,
+        177,
+        119,
+        146,
+        186
+      ]
+    },
+    {
+      "doc_idx": 42,
+      "query": "Which group had a top ten hit in 2000 called Cartoon Heroes?",
+      "rank": 0,
+      "top5": [
+        161,
+        156,
+        120,
+        17,
+        177
+      ]
+    },
+    {
+      "doc_idx": 43,
+      "query": "Who presented the childrens TV show Animal Magic from 1962 to 1983?",
+      "rank": 55,
+      "top5": [
+        142,
+        161,
+        37,
+        156,
+        174
+      ]
+    },
+    {
+      "doc_idx": 44,
+      "query": "Which George had top ten hits in the 1980s with Give Me The Night and In Your Eyes?",
+      "rank": 21,
+      "top5": [
+        161,
+        66,
+        63,
+        59,
+        156
+      ]
+    },
+    {
+      "doc_idx": 45,
+      "query": "What is the number of the court at Wimbledon which is nicknamed The Graveyard Of Champions due to a large number or seeded players being beaten on it by lower ranked players?",
+      "rank": 22,
+      "top5": [
+        37,
+        156,
+        177,
+        146,
+        66
+      ]
+    },
+    {
+      "doc_idx": 46,
+      "query": "With which re-released song did The Bluebells have a number one hit in 1993?",
+      "rank": 22,
+      "top5": [
+        156,
+        66,
+        47,
+        144,
+        30
+      ]
+    },
+    {
+      "doc_idx": 47,
+      "query": "What was the name of the act comprising of Gemma Abbey and Chris Cromby who became the first UK act to receive no points overall?",
+      "rank": 24,
+      "top5": [
+        156,
+        37,
+        2,
+        161,
+        63
+      ]
+    },
+    {
+      "doc_idx": 48,
+      "query": "Which England international footballer started his footballing career at Canadian club Calgary Foothills FC?",
+      "rank": 13,
+      "top5": [
+        30,
+        86,
+        52,
+        79,
+        27
+      ]
+    },
+    {
+      "doc_idx": 49,
+      "query": "Chaetophobia is the fear of what?",
+      "rank": 0,
+      "top5": [
+        190,
+        156,
+        17,
+        92,
+        168
+      ]
+    }
+  ]
+}

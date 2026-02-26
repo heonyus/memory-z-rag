@@ -1,0 +1,6 @@
+07:35:08 50 docs → 193 segments
+07:35:45 [epoch 0/300] nll=3.6518  best=inf  con=5.2767
+07:36:21 [epoch 1/300] nll=4.4396  best=3.6518  con=4.5558
+07:36:58 [epoch 2/300] nll=4.4697  best=3.6518  con=3.6766
+07:37:33 [epoch 3/300] nll=4.0769  best=3.6518  con=3.4243
+07:38:09 [epoch 4/300] nll=3.9963  best=3.6518  con=3.1889
