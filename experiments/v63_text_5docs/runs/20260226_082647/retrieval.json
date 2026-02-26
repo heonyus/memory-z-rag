@@ -1,0 +1,133 @@
+{
+  "metrics": {
+    "top1_acc": 0.7,
+    "top5_acc": 1.0,
+    "top10_acc": 1.0,
+    "top20_acc": 1.0,
+    "mrr": 0.8333333333333334,
+    "num_queries": 10,
+    "num_segments": 36
+  },
+  "examples": [
+    {
+      "doc_idx": 0,
+      "query": "In which branch of the arts is Patricia Neary famous?",
+      "rank": 0,
+      "top5": [
+        0,
+        11,
+        4,
+        35,
+        27
+      ]
+    },
+    {
+      "doc_idx": 1,
+      "query": "Who wrote the novel Evening Class?",
+      "rank": 0,
+      "top5": [
+        4,
+        32,
+        30,
+        18,
+        9
+      ]
+    },
+    {
+      "doc_idx": 2,
+      "query": "Who had the noels Spy Hook and Spy Line published in the 80s?",
+      "rank": 0,
+      "top5": [
+        7,
+        22,
+        11,
+        27,
+        35
+      ]
+    },
+    {
+      "doc_idx": 3,
+      "query": "Who had a 70s No 1 hit with Let Your Love Flow?",
+      "rank": 2,
+      "top5": [
+        13,
+        22,
+        10,
+        27,
+        11
+      ]
+    },
+    {
+      "doc_idx": 4,
+      "query": "Who had a 60s No 1 with Lightnin' Strikes?",
+      "rank": 0,
+      "top5": [
+        13,
+        22,
+        27,
+        11,
+        10
+      ]
+    },
+    {
+      "doc_idx": 5,
+      "query": "Which famous brother of Talia Shire does not share her last name?",
+      "rank": 0,
+      "top5": [
+        16,
+        17,
+        35,
+        6,
+        32
+      ]
+    },
+    {
+      "doc_idx": 6,
+      "query": "Who had a big 60s No 1 with Tossin' and Turnin'?",
+      "rank": 1,
+      "top5": [
+        13,
+        22,
+        27,
+        11,
+        20
+      ]
+    },
+    {
+      "doc_idx": 7,
+      "query": "Luxor international airport is in which country?",
+      "rank": 1,
+      "top5": [
+        11,
+        24,
+        10,
+        21,
+        8
+      ]
+    },
+    {
+      "doc_idx": 8,
+      "query": "Who had 70s hits with Have You Seen Her and Oh Girl?",
+      "rank": 0,
+      "top5": [
+        27,
+        10,
+        16,
+        22,
+        2
+      ]
+    },
+    {
+      "doc_idx": 9,
+      "query": "The Last Of The Really Great Whangdoodles and Mandy are children's books written by what well-known Oscar-winning actress?",
+      "rank": 0,
+      "top5": [
+        35,
+        32,
+        15,
+        34,
+        16
+      ]
+    }
+  ]
+}

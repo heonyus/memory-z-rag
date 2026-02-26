@@ -1,0 +1,254 @@
+[
+  {
+    "seg_idx": 0,
+    "nll": 0.050048828125,
+    "rouge_l": 0.2421875,
+    "generated": "Questioner or baller in the Balanchine Ballet or in the Ballet of the Ambatory are both named after George Balanchine, a ballerina and choreographer, who was particularly active in the Balanchine Ballet or in the Ballet of the Ambatory are both named after George Balanchine, a ballerina and choreographer, who was particularly active in the Balanchine Ballet or in the Ballet of the Ambatory are both named after George Balanchine, a ballerina and choreographer, who was particularly active in the Balanchine Ballet or in the Ballet of the Ambatory are both named after",
+    "reference": "Patricia Neary (born October 27, 1942) is an American ballerina, choreographer and ballet director, who has been particularly active in Switzerland. She has also been a highly successful ambassador for the Balanchine Trust, bringing George Balanchine's ballets to some 60 cities around the globe.\n\nBiography\n\nBorn in Miami, Florida, she first studied there under George Milenoff and Thomas Armour until she attended the School of American Ballet in New York. \n\nAt the age of 14, she joined the National Ballet of Canada as the youngest dancer in the company. In 1960,"
+  },
+  {
+    "seg_idx": 1,
+    "nll": 0.004730224609375,
+    "rouge_l": 1.0,
+    "generated": " she became a member of the New York City Ballet where she performed almost all the ballerina roles in George Balanchine's major works, including two roles he created specially for her in Raymonda Variations (1961) and Jewels (1967). She also performed leading roles in ballets by Jerome Robbins, Antony Tudor, John Taras and Merce Cunningham.\n\nIn 1968, she joined the Geneva Ballet where she performed in and staged Balanchine's ballets. She also made guest appearances in Stuttgart, Hamburg and Hannover. She worked as assistant ballet mistress with the ballet of the Deutsche Oper Berlin",
+    "reference": " she became a member of the New York City Ballet where she performed almost all the ballerina roles in George Balanchine's major works, including two roles he created specially for her in Raymonda Variations (1961) and Jewels (1967). She also performed leading roles in ballets by Jerome Robbins, Antony Tudor, John Taras and Merce Cunningham.\n\nIn 1968, she joined the Geneva Ballet where she performed in and staged Balanchine's ballets. She also made guest appearances in Stuttgart, Hamburg and Hannover. She worked as assistant ballet mistress with the ballet of the Deutsche Oper Berlin"
+  },
+  {
+    "seg_idx": 2,
+    "nll": 0.005706787109375,
+    "rouge_l": 1.0,
+    "generated": " from 1970 to 1973. With Balachine acting as artistic advisor, she was appointed director of ballet at the Grand Théâtre de Genève (1973–78). From 1978 to 1985, she served as ballet director of the Zurich Ballet, then of La Scala in Milan (1986–87). As artistic director of Ballet British Columbia (1989–90), she choreographed Variations Concertantes with music by Alberto Ginastera.\n\nSince 1988, she has worked as an ambassador for the Balanchine Trust, bringing his works to some 60 cities in Europe, the",
+    "reference": " from 1970 to 1973. With Balachine acting as artistic advisor, she was appointed director of ballet at the Grand Théâtre de Genève (1973–78). From 1978 to 1985, she served as ballet director of the Zurich Ballet, then of La Scala in Milan (1986–87). As artistic director of Ballet British Columbia (1989–90), she choreographed Variations Concertantes with music by Alberto Ginastera.\n\nSince 1988, she has worked as an ambassador for the Balanchine Trust, bringing his works to some 60 cities in Europe, the"
+  },
+  {
+    "seg_idx": 3,
+    "nll": 8.296966552734375e-05,
+    "rouge_l": 1.0,
+    "generated": " Far East and across the United States.<|end_of_text|>",
+    "reference": " Far East and across the United States."
+  },
+  {
+    "seg_idx": 4,
+    "nll": 0.0615234375,
+    "rouge_l": 0.12244897959183673,
+    "generated": "Question class is not yet defined, but may be interesting. We have a number of local and international celebrities who have made their mark on the world stage, but there are also a number of people who have made their mark on the world stage, but who are not known to the general public. This is a list of notable people who have made their mark on the world stage, but who are not known to the general public. This list is not yet defined; if you are not yet defined by the lesson, but wish to be defined by the lesson, you may define it<|end_of_text|>",
+    "reference": "Evening Class is a novel by Maeve Binchy. It was adapted as the award-winning film Italian for Beginners (2000) by writer-director Lone Scherfig, who failed to formally acknowledge the source, although at the very end of the closing credits is the line 'with thanks to Maeve Binchy'.\n\nPlot introduction\n\nA story of many Irish men and women from various backgrounds and how a teacher, Nora O'Donoghue (known as \"Signora\"), and an Italian evening class changes their lives over the course of a year.  Each chapter deals with the life story of one or more students in the class"
+  },
+  {
+    "seg_idx": 5,
+    "nll": 0.045166015625,
+    "rouge_l": 1.0,
+    "generated": ".  In a Dickensian way, they bump into each other and are affected by the decisions of those around them.\n\nMajor themes\n\nIt is a story of love and deceit, family drama, wealth and poverty, of friendship and courage.\n\nRelated\n\nNora O'Donoghue and Aidan Dunne also appear in Quentins, another novel by Maeve Binchy, and play a more significant role in Heart and Soul.\n\nFilm adaptation\n\nThe novel heavily inspired the plot of the Danish feature film Italian for Beginners (2000), which won a Silver Berlin Bear and several other major international awards. Maeve Binchy was not",
+    "reference": ".  In a Dickensian way, they bump into each other and are affected by the decisions of those around them.\n\nMajor themes\n\nIt is a story of love and deceit, family drama, wealth and poverty, of friendship and courage.\n\nRelated\n\nNora O'Donoghue and Aidan Dunne also appear in Quentins, another novel by Maeve Binchy, and play a more significant role in Heart and Soul.\n\nFilm adaptation\n\nThe novel heavily inspired the plot of the Danish feature film Italian for Beginners (2000), which won a Silver Berlin Bear and several other major international awards. Maeve Binchy was not"
+  },
+  {
+    "seg_idx": 6,
+    "nll": 0.002685546875,
+    "rouge_l": 1.0,
+    "generated": " paid, credited nor informed of this, but was later paid an undisclosed sum, when her publisher contacted the producers of the movie, Lars von Trier's company Zentropa. Although the film's writer-director Lone Scherfig had told the press that the film was based on her idea, executive producer Peter Aalbæk Jensen later admitted that she had made him aware of the similarities but that he had simply decided not to pay the original author.<|end_of_text|>",
+    "reference": " paid, credited nor informed of this, but was later paid an undisclosed sum, when her publisher contacted the producers of the movie, Lars von Trier's company Zentropa. Although the film's writer-director Lone Scherfig had told the press that the film was based on her idea, executive producer Peter Aalbæk Jensen later admitted that she had made him aware of the similarities but that he had simply decided not to pay the original author."
+  },
+  {
+    "seg_idx": 7,
+    "nll": 0.03759765625,
+    "rouge_l": 0.2265625,
+    "generated": "Spy Question 3. What is the difference between primary, secondary, and tertiary education? 4. What is the difference between primary, secondary, and tertiary education? 5. What is the difference between primary, secondary, and tertiary education? 6. What is the difference between primary, secondary, and tertiary education? 7. What is the difference between primary, secondary, and tertiary education? 8. What is the difference between primary, secondary, and tertiary education? 9. What is the difference between primary, secondary, and tertiary education? 10. What is the difference between primary, secondary, and tertiary",
+    "reference": "Spy Hook is a 1988 spy novel by Len Deighton. It is the first novel in the second of three trilogies about Bernard Samson, a middle-aged and somewhat jaded intelligence officer working for the British Secret Intelligence Service (MI6). Spy Hook is part of the Hook, Line and Sinker  trilogy, being succeeded by Spy Line and Spy Sinker. This trilogy is preceded by the Game, Set and Match trilogy and followed by the final Faith, Hope and Charity trilogy. Deighton's novel Winter (1987) is a prequel to the nine novels, covering the years 1900-1945"
+  },
+  {
+    "seg_idx": 8,
+    "nll": 0.068359375,
+    "rouge_l": 0.1796875,
+    "generated": " and and of course, the money.\n\nAnswering the question \"What is the point of the story?\" is the beginning of the answer.  It is told in the first person, by Bernard Samson.  The rest of the story is told in the third person, by a narrator.\n\nThe end of the answer is \"Money.\"  It is told in the second person, by Bernard.\n\nThe beginning of the answer is \"Money.\"  It is told in the first person, by Bernard.\n\nThe middle of the answer is \"Money.\"  It is told in the third person, by the narrator.\n\nThe end of the answer",
+    "reference": " and providing the backstory to some of the characters.\n\nPlot summary\n\nThe novel begins with Bernard Sampson visiting his old friend and ex-SIS colleague in Washington named Jim Prettyman as part of an investigation regarding some missing funds. Soon after, Prettyman is murdered in a mugging.\n\nAll his allies start losing interest in the investigation, and after digging deeper Bernard is sent to America once again, where it is revealed that Brett has not indeed died (as hinted at the end of the first trilogy, and discussed in this book.) but is in fact in rehabilitation. Bernard returns to Europe, where he confronts a man called \"Dodo"
+  },
+  {
+    "seg_idx": 9,
+    "nll": 0.0235595703125,
+    "rouge_l": 1.0,
+    "generated": "\" and is saved from an untimely death by Prettyman, who it turns out has gone under \"deep-cover\".\n\nBernard then takes his evidence to the Director General, who in a surprise turn of events orders his arrest, which thanks to some quick thinking by Werner Volkmann, Bernard evades for the while.\n\nThe novel concludes with Bernard seeking an explanation from Frank Harrington, before disappearing into the night.<|end_of_text|>",
+    "reference": "\" and is saved from an untimely death by Prettyman, who it turns out has gone under \"deep-cover\".\n\nBernard then takes his evidence to the Director General, who in a surprise turn of events orders his arrest, which thanks to some quick thinking by Werner Volkmann, Bernard evades for the while.\n\nThe novel concludes with Bernard seeking an explanation from Frank Harrington, before disappearing into the night."
+  },
+  {
+    "seg_idx": 10,
+    "nll": 0.01251220703125,
+    "rouge_l": 1.0,
+    "generated": "\"Let Your Love Flow\" is the title of a pop song written by Larry E. Williams, a former roadie for Neil Diamond,  and made popular by the American country music duo The Bellamy Brothers. Diamond was initially offered the  opportunity to record the song, but he declined.  The song was first recorded by Gene Cotton prior to the Bellamy Brothers, but Cotton never  secured the rights.\n\nThe song was a crossover hit in the United States, reaching Number One on the 1976 Billboard Hot 100 charts, #2 on Hot Adult Contemporary Tracks, and #21 on Hot Country Singles. It was also an",
+    "reference": "\"Let Your Love Flow\" is the title of a pop song written by Larry E. Williams, a former roadie for Neil Diamond,  and made popular by the American country music duo The Bellamy Brothers. Diamond was initially offered the  opportunity to record the song, but he declined.  The song was first recorded by Gene Cotton prior to the Bellamy Brothers, but Cotton never  secured the rights.\n\nThe song was a crossover hit in the United States, reaching Number One on the 1976 Billboard Hot 100 charts, #2 on Hot Adult Contemporary Tracks, and #21 on Hot Country Singles. It was also an"
+  },
+  {
+    "seg_idx": 11,
+    "nll": 0.01177978515625,
+    "rouge_l": 1.0,
+    "generated": " international hit, landing on the charts in the UK, Scandinavia and West Germany,  where the Bellamy Brothers' record spent five weeks at #1.  In 2008, the song re-entered the UK Singles Chart following its appearance in an advertisement in the United Kingdom for Barclaycard, where it peaked at #21. \n \nIn other media, it was used in the 1980 Tatum O'Neal film Little Darlings, the 2008 period drama Swingtown, and season 2 episode 'No Room at the Inn' of the HBO series The Leftovers.\n\nThe song has been covered by numerous",
+    "reference": " international hit, landing on the charts in the UK, Scandinavia and West Germany,  where the Bellamy Brothers' record spent five weeks at #1.  In 2008, the song re-entered the UK Singles Chart following its appearance in an advertisement in the United Kingdom for Barclaycard, where it peaked at #21. \n \nIn other media, it was used in the 1980 Tatum O'Neal film Little Darlings, the 2008 period drama Swingtown, and season 2 episode 'No Room at the Inn' of the HBO series The Leftovers.\n\nThe song has been covered by numerous"
+  },
+  {
+    "seg_idx": 12,
+    "nll": 0.00506591796875,
+    "rouge_l": 1.0,
+    "generated": " other artists, most notably Joan Baez, who included it on her 1979 Honest Lullaby album. Another re-recording by the Bellamy brothers with Gölä is included on the album The Greatest Hits Sessions.  \"Ein Bett im Kornfeld\", a German language adaptation of the song recorded by Jürgen Drews, spent eleven weeks at #1 in West Germany in 1976. \n\nChart performance\n\n*AFeaturing Gölä.<|end_of_text|>",
+    "reference": " other artists, most notably Joan Baez, who included it on her 1979 Honest Lullaby album. Another re-recording by the Bellamy brothers with Gölä is included on the album The Greatest Hits Sessions.  \"Ein Bett im Kornfeld\", a German language adaptation of the song recorded by Jürgen Drews, spent eleven weeks at #1 in West Germany in 1976. \n\nChart performance\n\n*AFeaturing Gölä."
+  },
+  {
+    "seg_idx": 13,
+    "nll": 0.0830078125,
+    "rouge_l": 0.4788732394366197,
+    "generated": "\"Question\" is a song written by Andy Gore and published in 1966 on the MGM label. It was written for Ray Kirby and was a hit in a row, first in the UK, then in the US, then in Canada, then in New Zealand, then in Australia, then in France and then in Germany. RIAA certification on March 3, 1967 for selling over one million copies<|end_of_text|>",
+    "reference": "\"Lightnin' Strikes\" is a song written by Lou Christie and Twyla Herbert, and recorded by Christie on the MGM label. It was a hit in 1966, making it first to No. 1 in Canada in January 1966 on the RPM Top Singles chart, then to No. 1 in the U.S. on the Billboard Hot 100 in February, No. 3 on the New Zealand Listener chart in May,  and No. 11 on the UK Record Retailer chart. RIAA certification on March 3, 1966, garnering gold status for selling over one million copies"
+  },
+  {
+    "seg_idx": 14,
+    "nll": 0.07666015625,
+    "rouge_l": 0.09375,
+    "generated": ".\n\nQuestion\n\nI have a question about the \"most similar\" function. I have a table of data that I want to sort by the \"most similar\" function. I have tried to use the \"most similar\" function, but it does not work. I have tried to use the \"most similar\" function, but it does not work. I have tried to use the \"most similar\" function, but it does not work. I have tried to use the \"most similar\" function, but it does not work. I have tried to use the \"most similar\" function, but it does not work. I have tried to",
+    "reference": ".\n\nPersonnel\n\nThe song was arranged, conducted, and produced by Charles Calello and was recorded on September 3, 1965. The backup singers were Peggy Santiglia, Bernadette Carroll, and Denise Ferri. Session personnel included Joe Farrell and George Young on baritone sax; Ray DeSio on trombone; Stan Free on piano; Lou Mauro on bass; Charlie Macy, Ralph Casale, and Vinnie Bell on guitar; and Buddy Saltzman on drums.  Ralph Casale's \"stuttering\" guitar solo was originally an overdub.\n\nChart performance\n\nWeekly charts\n\nYear-end"
+  },
+  {
+    "seg_idx": 15,
+    "nll": 0.0069580078125,
+    "rouge_l": 1.0,
+    "generated": " charts\n\nCover versions\n\n\"Lightnin' Strikes\" was covered by Jan & Dean for their record Filet of Soul in 1966.\n\nThe song was also covered years later by the New York underground artist Klaus Nomi, appearing on his 1981 debut album Klaus Nomi, and was the A-side of a 1982 single accompanied by a video. The political satire group Capitol Steps spoofed it as The Right Wing's Striking Again.\n\n*In 1983, Mike Love of The Beach Boys covered the song on Love's and Dean Torrence album Rock 'N' Roll City.<|end_of_text|>",
+    "reference": " charts\n\nCover versions\n\n\"Lightnin' Strikes\" was covered by Jan & Dean for their record Filet of Soul in 1966.\n\nThe song was also covered years later by the New York underground artist Klaus Nomi, appearing on his 1981 debut album Klaus Nomi, and was the A-side of a 1982 single accompanied by a video. The political satire group Capitol Steps spoofed it as The Right Wing's Striking Again.\n\n*In 1983, Mike Love of The Beach Boys covered the song on Love's and Dean Torrence album Rock 'N' Roll City."
+  },
+  {
+    "seg_idx": 16,
+    "nll": 0.0380859375,
+    "rouge_l": 0.0859375,
+    "generated": "Question: What is the best way to deal with a student who is always late for class?\nAnswer: The best way to deal with a student who is always late for class is to have a discussion with the student about the importance of punctuality. The student should also be reminded of the consequences of tardiness, such as detention and a lower grade. If these measures do not work, the student should be expelled from school.\nWhat is the best way to deal with a student who is always late for class?\nThe best way to deal with a student who is always late for class is to have a discussion with the student about the importance",
+    "reference": "Talia Rose Shire (née Coppola; born April 25, 1946) is an Italian-American actress most known for her roles as Connie Corleone in The Godfather films and Adrian Balboa in the Rocky series. For her work in The Godfather Part II and Rocky, Shire has been nominated for two Academy Awards for Best Supporting Actress and Best Actress, respectively.\n\nPersonal life\n\nShire was born Talia Rose Coppola in Lake Success, New York, the daughter of Italia (née Pennino; 1912-2004) and arranger/composer Carmine Coppola (1910"
+  },
+  {
+    "seg_idx": 17,
+    "nll": 0.009521484375,
+    "rouge_l": 1.0,
+    "generated": "-1991).  Her parents were both of Italian descent. Talia is the sister of director and producer Francis Ford Coppola and academic August Coppola, the aunt of actor Nicolas Cage and director Sofia Coppola, and the niece of composer and conductor Anton Coppola. She has five children. Her son Matthew Orlando Shire is the child of her first marriage to composer David Shire. Her other sons, actors/musicians  Jason and Robert, are from her second marriage, to the late film producer Jack Schwartzman. She also has two stepchildren by her second marriage, Schwartzman's first marriage.\n\nCareer\n\nShire",
+    "reference": "-1991).  Her parents were both of Italian descent. Talia is the sister of director and producer Francis Ford Coppola and academic August Coppola, the aunt of actor Nicolas Cage and director Sofia Coppola, and the niece of composer and conductor Anton Coppola. She has five children. Her son Matthew Orlando Shire is the child of her first marriage to composer David Shire. Her other sons, actors/musicians  Jason and Robert, are from her second marriage, to the late film producer Jack Schwartzman. She also has two stepchildren by her second marriage, Schwartzman's first marriage.\n\nCareer\n\nShire"
+  },
+  {
+    "seg_idx": 18,
+    "nll": 0.0045166015625,
+    "rouge_l": 1.0,
+    "generated": " portrayed Connie Corleone in The Godfather and its sequels. She was nominated for the Academy Award for Best Supporting Actress for her performance in 1974's The Godfather: Part II. In 1976, she portrayed Adrian Pennino, the love interest of Rocky Balboa in Rocky. For this role, she won the New York Film Critics Circle Award for Best Supporting Actress, the National Board of Review Award for Best Supporting Actress, and was nominated for a Best Actress Oscar. In addition to the Rocky sequels, Shire appeared in such films as Kiss the Bride (2002), I Heart Huckabees (200",
+    "reference": " portrayed Connie Corleone in The Godfather and its sequels. She was nominated for the Academy Award for Best Supporting Actress for her performance in 1974's The Godfather: Part II. In 1976, she portrayed Adrian Pennino, the love interest of Rocky Balboa in Rocky. For this role, she won the New York Film Critics Circle Award for Best Supporting Actress, the National Board of Review Award for Best Supporting Actress, and was nominated for a Best Actress Oscar. In addition to the Rocky sequels, Shire appeared in such films as Kiss the Bride (2002), I Heart Huckabees (200"
+  },
+  {
+    "seg_idx": 19,
+    "nll": 0.0026702880859375,
+    "rouge_l": 1.0,
+    "generated": "4),  and Homo Erectus (2007). \n\nFilmography<|end_of_text|>",
+    "reference": "4),  and Homo Erectus (2007). \n\nFilmography"
+  },
+  {
+    "seg_idx": 20,
+    "nll": 0.01019287109375,
+    "rouge_l": 1.0,
+    "generated": "\"Tossin' and Turnin'\" is a song written by Ritchie Adams and Malou Rene, and originally recorded by Bobby Lewis. The record reached number one on both the Billboard Hot 100 on July 10, 1961 and R&B chart  and has since become a standard on oldies compilations. It was named the number-one single on the Billboard chart for 1961, after spending seven consecutive weeks at the top. It was featured on the soundtrack for the 1978 film Animal House.\n\nOn the original hit single version, the track begins with Lewis singing \"I couldn't sleep at all last night,\"",
+    "reference": "\"Tossin' and Turnin'\" is a song written by Ritchie Adams and Malou Rene, and originally recorded by Bobby Lewis. The record reached number one on both the Billboard Hot 100 on July 10, 1961 and R&B chart  and has since become a standard on oldies compilations. It was named the number-one single on the Billboard chart for 1961, after spending seven consecutive weeks at the top. It was featured on the soundtrack for the 1978 film Animal House.\n\nOn the original hit single version, the track begins with Lewis singing \"I couldn't sleep at all last night,\""
+  },
+  {
+    "seg_idx": 21,
+    "nll": 0.021484375,
+    "rouge_l": 0.058823529411764705,
+    "generated": ", and then the song ends.<|end_of_text|>",
+    "reference": " and it appears this way on most oldies compilations. However, on some releases the song has a prelude, where Lewis sings \"Baby...Baby...you did something to me,\" followed by a musical cue into the first verse. Lewis usually includes this prelude when he performs the song live.  The personnel on the original hit recording included Ritchie Adams and Eric Gale on guitar, Bob Bushnell on bass, King Curtis on a tenor sax mouthpiece, Frank Haywood Henry on baritone sax, Paul Griffin on Piano, and Sticks Evans on drums.\n\nIn 2008, Billboard magazine ranked the song as the"
+  },
+  {
+    "seg_idx": 22,
+    "nll": 0.02197265625,
+    "rouge_l": 1.0,
+    "generated": " 27th biggest song of all time that charted on the Billboard Hot 100, commemorating the 50th anniversary of the chart.   It is one of only six songs from the 1960s to spend at least seven weeks in the number one position on the Billboard Hot 100.\n\nCover versions\n\n*In 1965, Chad Allan & the Expressions (Guess Who?) covered the song and released it as the B-side of \"Shakin' All Over\" and as a single in Canada where it reached #3. \n*In 1966, The Kingsmen released a version on their album The Kings",
+    "reference": " 27th biggest song of all time that charted on the Billboard Hot 100, commemorating the 50th anniversary of the chart.   It is one of only six songs from the 1960s to spend at least seven weeks in the number one position on the Billboard Hot 100.\n\nCover versions\n\n*In 1965, Chad Allan & the Expressions (Guess Who?) covered the song and released it as the B-side of \"Shakin' All Over\" and as a single in Canada where it reached #3. \n*In 1966, The Kingsmen released a version on their album The Kings"
+  },
+  {
+    "seg_idx": 23,
+    "nll": 0.08349609375,
+    "rouge_l": 0.11504424778761062,
+    "generated": "men UpQuestion\n* Bupmenan\n* Supper\n* Ambulance\n* Supremo\n* Supremos\n* Supremos\n* Supremos\n* Supremos\n* Supremos\n* Supremos\n* Supremos\n* Supremos\n* Supremos\n* Supremos\n* Supremos\n* Supremos\n* Supremos\n* Supremos\n* Supremos\n* Supremos\n* Supremos\n* Supremos\n* Supremos\n* Supremos\n* Supremos",
+    "reference": "men Up And Away.\n*In 1972, The Supremes released a version on their album The Supremes Produced and Arranged by Jimmy Webb.\n*In 1978, Kiss drummer Peter Criss released a version on his solo album Peter Criss. KISS played the song on the Dynasty Tour in 1979\n*In 1983, Joan Jett released a version on her album Album.\n*Steve Goodman\n*Lulu \n*Jimmy Sturr"
+  },
+  {
+    "seg_idx": 24,
+    "nll": 0.00982666015625,
+    "rouge_l": 1.0,
+    "generated": "Luxor International Airport  is the main airport serving the city of Luxor, Egypt. It is located four miles (6 km) east of the city. Many charter airlines use the airport, as it is a popular tourist destination for those visiting the River Nile and the Valley of the Kings.\n\nFacilities\n\nIn 2005 the airport was upgraded  to accommodate up to 8 million passengers a year. Facilities for passengers include 48 check-in desks, 8 gates, 5 baggage claim belts, a post office,  a bank,  a Bureau de change, an auto exchange machine (CIB), restaurants, caf",
+    "reference": "Luxor International Airport  is the main airport serving the city of Luxor, Egypt. It is located four miles (6 km) east of the city. Many charter airlines use the airport, as it is a popular tourist destination for those visiting the River Nile and the Valley of the Kings.\n\nFacilities\n\nIn 2005 the airport was upgraded  to accommodate up to 8 million passengers a year. Facilities for passengers include 48 check-in desks, 8 gates, 5 baggage claim belts, a post office,  a bank,  a Bureau de change, an auto exchange machine (CIB), restaurants, caf"
+  },
+  {
+    "seg_idx": 25,
+    "nll": 0.035400390625,
+    "rouge_l": 0.0390625,
+    "generated": "Question-Ask the Hotel Central Contact for more info.) \n\nArchived CEO\n\n## NamCev\n\nThe namcev\n\n## 201\n\n* Kingan, the Kingan name means the Kingan name means the Kingan name means the Kingan name means the Kingan name means the Kingan name means the Kingan name means the Kingan name means the Kingan name means the Kingan name means the Kingan name means the Kingan name means the Kingan name means the Kingan name means the Kingan name means the Kingan name means the Kingan name means the Kingan name means the Kingan name",
+    "reference": "eterias, a VIP Lounge, a duty-free shop,  a newsagent/tobacconist, a chemist shop, a gift shop, a travel agency,  a tourist help desk, car rental, first aid, a baby/parent Room, disabled access/facilities and a business centre. \n\nFacilities for cargo include refrigerated storage, animal quarantine, livestock handling, health officials, X-Ray equipment, and fumigation equipment. The cargo terminal handling agent for the airport is EgyptAir Cargo.\n\nAirlines and destinations\n\nAccidents and incidents\n\n* On 20 February 2009, an Antonov An"
+  },
+  {
+    "seg_idx": 26,
+    "nll": 0.0030517578125,
+    "rouge_l": 1.0,
+    "generated": "-12 crashed after an engine caught fire on take-off. All five crew were killed.<|end_of_text|>",
+    "reference": "-12 crashed after an engine caught fire on take-off. All five crew were killed."
+  },
+  {
+    "seg_idx": 27,
+    "nll": 0.00830078125,
+    "rouge_l": 1.0,
+    "generated": "\"Have You Seen Her\" is a song recorded by the soul vocal group, The Chi-Lites, and  released on Brunswick Records in 1971. Composed by the lead singer Eugene Record and Barbara Acklin, the song was included on the group's 1971 album (For God's Sake) Give More Power to the People.\n\nSong\n\nThe Chi-Lites recorded \"Have You Seen Her\" in a style owing much to the doo-wop traditions of the late 1950s, after the success of another such song earlier in the year, The Temptations' \"Just My Imagination (Running",
+    "reference": "\"Have You Seen Her\" is a song recorded by the soul vocal group, The Chi-Lites, and  released on Brunswick Records in 1971. Composed by the lead singer Eugene Record and Barbara Acklin, the song was included on the group's 1971 album (For God's Sake) Give More Power to the People.\n\nSong\n\nThe Chi-Lites recorded \"Have You Seen Her\" in a style owing much to the doo-wop traditions of the late 1950s, after the success of another such song earlier in the year, The Temptations' \"Just My Imagination (Running"
+  },
+  {
+    "seg_idx": 28,
+    "nll": 1.1328125,
+    "rouge_l": 0.034682080924855495,
+    "generated": " Away with Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me Me<|end_of_text|>",
+    "reference": " Away with Me).\" The song begins and ends with a narrator remarking on how he was once happy with a woman; however, she left him, so he passes the days by partaking in leisurely activities. However, much to the dismay of the narrator, the woman does not return, or attempt to communicate with him as he had hoped. The narrator ends the song by musing on how foolish he was for believing the woman of his dreams would always be around. Some radio edits have omitted the spoken dialogue for just the singing portions. The song peaked at #3 on the Billboard Hot 100, and reached the top of the"
+  },
+  {
+    "seg_idx": 29,
+    "nll": 0.012451171875,
+    "rouge_l": 1.0,
+    "generated": " Billboard R&B Singles chart in November 1971.  It also reached #3 on the UK Singles Chart in February 1972. \nThe most significant cover of \"Have You Seen Her\" was recorded by MC Hammer, for his successful 1990 LP, Please Hammer, Don't Hurt 'Em, which reached #4 on the Billboard Hot 100 and #8 on the UK Singles Chart. \nThe Barron Knights produced a parody version.\n\nPatrick Simmons (of The Doobie Brothers) recorded a cover version on his 1983 solo album Arcade.\n\nX Factor series 2 contestant Maria Lawson used a sample of the",
+    "reference": " Billboard R&B Singles chart in November 1971.  It also reached #3 on the UK Singles Chart in February 1972. \nThe most significant cover of \"Have You Seen Her\" was recorded by MC Hammer, for his successful 1990 LP, Please Hammer, Don't Hurt 'Em, which reached #4 on the Billboard Hot 100 and #8 on the UK Singles Chart. \nThe Barron Knights produced a parody version.\n\nPatrick Simmons (of The Doobie Brothers) recorded a cover version on his 1983 solo album Arcade.\n\nX Factor series 2 contestant Maria Lawson used a sample of the"
+  },
+  {
+    "seg_idx": 30,
+    "nll": 0.154296875,
+    "rouge_l": 0.0546875,
+    "generated": " song question question question question question Question 1.3.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.",
+    "reference": " song for her 2006 debut single \"Sleepwalking\".\n\nWillie Nepomuceno produced a parody version titled \"Galing Opisina\", mimicking the voice of Dolphy.\n\nIn 2013, voice actors Rob Paulsen and John DiMaggio performed a short parody version mocking the Anthony Weiner Scandal. They incorrectly attributed the song to The Stylistics. \n\nThe song in its original recording by The Chi-Lites was included in the 2001 Clear Channel memorandum list released by Clear Channel Communications after the terrorist attacks of September 11, 2001, probably because at the light of the attacks the song lyrics"
+  },
+  {
+    "seg_idx": 31,
+    "nll": 0.0012054443359375,
+    "rouge_l": 1.0,
+    "generated": " could sound sensitive to the family of the victims, implying the girl could have died.\n\nChart positions<|end_of_text|>",
+    "reference": " could sound sensitive to the family of the victims, implying the girl could have died.\n\nChart positions"
+  },
+  {
+    "seg_idx": 32,
+    "nll": 0.0458984375,
+    "rouge_l": 0.0,
+    "generated": "Questioner\n<|end_of_text|>",
+    "reference": "The Last of the Really Great Whangdoodles is a children's novel written by Julie Edwards, the married name of singer and actress Dame Julie Andrews.  More recent editions credit the book to \"Julie Andrews Edwards\".\n\nPlot summary\n\nThree siblings, Ben, Tom, and Melinda Potter (better known as Lindy), meet Professor Savant while visiting the zoo one rainy day.  On Halloween, Lindy dared to knock on the spookiest house on the block, which happens to belong to the Professor, and the three become more acquainted with him. After a second meeting, they begin spending time at the Professor's house"
+  },
+  {
+    "seg_idx": 33,
+    "nll": 0.009765625,
+    "rouge_l": 1.0,
+    "generated": ", where he introduces them to games of concentration and observation. He reveals that there is a magic land called Whangdoodleland that can only be reached through the imagination, and that he is training them to accompany him there. \n\nWhangdoodleland is the home of the last Whangdoodle that lived in the world.  Once the Whangdoodle, and other creatures that are now considered imaginary, lived in our world.  However, fearing that people were losing their imaginations in the pursuit of power and greed, the Whangdoodle created a magic and peaceful world over which he reigns. The professor",
+    "reference": ", where he introduces them to games of concentration and observation. He reveals that there is a magic land called Whangdoodleland that can only be reached through the imagination, and that he is training them to accompany him there. \n\nWhangdoodleland is the home of the last Whangdoodle that lived in the world.  Once the Whangdoodle, and other creatures that are now considered imaginary, lived in our world.  However, fearing that people were losing their imaginations in the pursuit of power and greed, the Whangdoodle created a magic and peaceful world over which he reigns. The professor"
+  },
+  {
+    "seg_idx": 34,
+    "nll": 0.0167236328125,
+    "rouge_l": 1.0,
+    "generated": " and the children explore this world.\n\nEach time the children return, they venture farther and farther into Whangdoodleland, intending to reach the palace where the Last Whangdoodle resides.  However, the Whangdoodle's Prime Minister, the \"Oily Prock\", does not want them to disturb His Highness, and sets up a number of traps, both in Whangdoodleland and the real world to prevent this meeting.  He enlists the marvelous and funny creatures of the land in his effort, including the High Behind Splintercat, the Sidewinders, the Oinck, the Gaz",
+    "reference": " and the children explore this world.\n\nEach time the children return, they venture farther and farther into Whangdoodleland, intending to reach the palace where the Last Whangdoodle resides.  However, the Whangdoodle's Prime Minister, the \"Oily Prock\", does not want them to disturb His Highness, and sets up a number of traps, both in Whangdoodleland and the real world to prevent this meeting.  He enlists the marvelous and funny creatures of the land in his effort, including the High Behind Splintercat, the Sidewinders, the Oinck, the Gaz"
+  },
+  {
+    "seg_idx": 35,
+    "nll": 0.00738525390625,
+    "rouge_l": 1.0,
+    "generated": "ooks, the Tree Squeaks, and the Swamp Gaboons.  The children use their imaginations, intelligence, and the friendship of another denizen, the Whiffle Bird, to outwit the traps.\n\nThe kids at last meet the last Whangdoodle. It turns out he wants a female Whangdoodle to be his queen, so he won't be lonely, and Professor Savant's knowledge and talents have the ability to grant the Whangdoodle just that. That is, if the Professor can figure out exactly how to do it.<|end_of_text|>",
+    "reference": "ooks, the Tree Squeaks, and the Swamp Gaboons.  The children use their imaginations, intelligence, and the friendship of another denizen, the Whiffle Bird, to outwit the traps.\n\nThe kids at last meet the last Whangdoodle. It turns out he wants a female Whangdoodle to be his queen, so he won't be lonely, and Professor Savant's knowledge and talents have the ability to grant the Whangdoodle just that. That is, if the Professor can figure out exactly how to do it."
+  }
+]
