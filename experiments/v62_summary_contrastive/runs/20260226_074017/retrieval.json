@@ -1,10 +1,10 @@
 {
   "metrics": {
-    "top1_acc": 0.78,
-    "top5_acc": 0.88,
-    "top10_acc": 0.94,
-    "top20_acc": 0.98,
-    "mrr": 0.8305404040404041,
+    "top1_acc": 0.6,
+    "top5_acc": 0.8,
+    "top10_acc": 0.86,
+    "top20_acc": 0.94,
+    "mrr": 0.6859505063563887,
     "num_queries": 50,
     "num_segments": 50
   },
@@ -12,28 +12,13 @@
     {
       "doc_idx": 0,
       "query": "In which branch of the arts is Patricia Neary famous?",
-      "rank": 1,
+      "rank": 9,
       "top5": [
-        {
-          "seg": 206,
-          "src": "text"
-        },
-        {
-          "seg": 50,
-          "src": "text"
-        },
-        {
-          "seg": 165,
-          "src": "text"
-        },
-        {
-          "seg": 175,
-          "src": "text"
-        },
-        {
-          "seg": 200,
-          "src": "text"
-        }
+        41,
+        22,
+        32,
+        43,
+        36
       ]
     },
     {
@@ -41,80 +26,35 @@
       "query": "Who wrote the novel Evening Class?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 54,
-          "src": "text"
-        },
-        {
-          "seg": 1,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 208,
-          "src": "text"
-        },
-        {
-          "seg": 82,
-          "src": "text"
-        },
-        {
-          "seg": 106,
-          "src": "text"
-        }
+        1,
+        32,
+        44,
+        22,
+        26
       ]
     },
     {
       "doc_idx": 2,
       "query": "Who had the noels Spy Hook and Spy Line published in the 80s?",
-      "rank": 0,
+      "rank": 33,
       "top5": [
-        {
-          "seg": 57,
-          "src": "text"
-        },
-        {
-          "seg": 72,
-          "src": "text"
-        },
-        {
-          "seg": 207,
-          "src": "text"
-        },
-        {
-          "seg": 154,
-          "src": "text"
-        },
-        {
-          "seg": 226,
-          "src": "text"
-        }
+        4,
+        6,
+        43,
+        22,
+        32
       ]
     },
     {
       "doc_idx": 3,
       "query": "Who had a 70s No 1 hit with Let Your Love Flow?",
-      "rank": 8,
+      "rank": 1,
       "top5": [
-        {
-          "seg": 94,
-          "src": "text"
-        },
-        {
-          "seg": 4,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 63,
-          "src": "text"
-        },
-        {
-          "seg": 72,
-          "src": "text"
-        },
-        {
-          "seg": 146,
-          "src": "text"
-        }
+        4,
+        3,
+        12,
+        43,
+        45
       ]
     },
     {
@@ -122,26 +62,11 @@
       "query": "Who had a 60s No 1 with Lightnin' Strikes?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 63,
-          "src": "text"
-        },
-        {
-          "seg": 4,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 94,
-          "src": "text"
-        },
-        {
-          "seg": 130,
-          "src": "text"
-        },
-        {
-          "seg": 92,
-          "src": "text"
-        }
+        4,
+        43,
+        12,
+        25,
+        17
       ]
     },
     {
@@ -149,53 +74,23 @@
       "query": "Which famous brother of Talia Shire does not share her last name?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 67,
-          "src": "text"
-        },
-        {
-          "seg": 66,
-          "src": "text"
-        },
-        {
-          "seg": 5,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 116,
-          "src": "text"
-        },
-        {
-          "seg": 56,
-          "src": "text"
-        }
+        5,
+        1,
+        41,
+        16,
+        22
       ]
     },
     {
       "doc_idx": 6,
       "query": "Who had a big 60s No 1 with Tossin' and Turnin'?",
-      "rank": 2,
+      "rank": 0,
       "top5": [
-        {
-          "seg": 4,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 63,
-          "src": "text"
-        },
-        {
-          "seg": 6,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 72,
-          "src": "text"
-        },
-        {
-          "seg": 130,
-          "src": "text"
-        }
+        6,
+        4,
+        25,
+        43,
+        17
       ]
     },
     {
@@ -203,53 +98,23 @@
       "query": "Luxor international airport is in which country?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 74,
-          "src": "text"
-        },
-        {
-          "seg": 7,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 98,
-          "src": "text"
-        },
-        {
-          "seg": 154,
-          "src": "text"
-        },
-        {
-          "seg": 170,
-          "src": "text"
-        }
+        7,
+        42,
+        49,
+        43,
+        1
       ]
     },
     {
       "doc_idx": 8,
       "query": "Who had 70s hits with Have You Seen Her and Oh Girl?",
-      "rank": 0,
+      "rank": 4,
       "top5": [
-        {
-          "seg": 77,
-          "src": "text"
-        },
-        {
-          "seg": 163,
-          "src": "text"
-        },
-        {
-          "seg": 225,
-          "src": "text"
-        },
-        {
-          "seg": 32,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 79,
-          "src": "text"
-        }
+        32,
+        10,
+        43,
+        28,
+        8
       ]
     },
     {
@@ -257,107 +122,47 @@
       "query": "The Last Of The Really Great Whangdoodles and Mandy are children's books written by what well-known Oscar-winning actress?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 9,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 82,
-          "src": "text"
-        },
-        {
-          "seg": 106,
-          "src": "text"
-        },
-        {
-          "seg": 85,
-          "src": "text"
-        },
-        {
-          "seg": 84,
-          "src": "text"
-        }
+        9,
+        32,
+        22,
+        36,
+        1
       ]
     },
     {
       "doc_idx": 10,
       "query": "Who had a big 90s No 1 with This Is How We Do It?",
-      "rank": 10,
+      "rank": 1,
       "top5": [
-        {
-          "seg": 4,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 94,
-          "src": "text"
-        },
-        {
-          "seg": 146,
-          "src": "text"
-        },
-        {
-          "seg": 72,
-          "src": "text"
-        },
-        {
-          "seg": 63,
-          "src": "text"
-        }
+        4,
+        10,
+        48,
+        45,
+        25
       ]
     },
     {
       "doc_idx": 11,
       "query": "In what year were women first admitted to Harvard?",
-      "rank": 0,
+      "rank": 2,
       "top5": [
-        {
-          "seg": 89,
-          "src": "text"
-        },
-        {
-          "seg": 100,
-          "src": "text"
-        },
-        {
-          "seg": 103,
-          "src": "text"
-        },
-        {
-          "seg": 210,
-          "src": "text"
-        },
-        {
-          "seg": 22,
-          "src": "doc_sum"
-        }
+        22,
+        1,
+        11,
+        42,
+        32
       ]
     },
     {
       "doc_idx": 12,
       "query": "Who had 70s No 1 hit with Show and Tell?",
-      "rank": 0,
+      "rank": 1,
       "top5": [
-        {
-          "seg": 94,
-          "src": "text"
-        },
-        {
-          "seg": 63,
-          "src": "text"
-        },
-        {
-          "seg": 109,
-          "src": "text"
-        },
-        {
-          "seg": 4,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 146,
-          "src": "text"
-        }
+        4,
+        12,
+        43,
+        6,
+        3
       ]
     },
     {
@@ -365,53 +170,23 @@
       "query": "When was the Scrabble World championship first held?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 97,
-          "src": "text"
-        },
-        {
-          "seg": 99,
-          "src": "text"
-        },
-        {
-          "seg": 98,
-          "src": "text"
-        },
-        {
-          "seg": 22,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 100,
-          "src": "text"
-        }
+        13,
+        22,
+        26,
+        21,
+        34
       ]
     },
     {
       "doc_idx": 14,
       "query": "Ellen Church is recognized as being the first female what?",
-      "rank": 0,
+      "rank": 3,
       "top5": [
-        {
-          "seg": 102,
-          "src": "text"
-        },
-        {
-          "seg": 206,
-          "src": "text"
-        },
-        {
-          "seg": 188,
-          "src": "text"
-        },
-        {
-          "seg": 210,
-          "src": "text"
-        },
-        {
-          "seg": 128,
-          "src": "text"
-        }
+        22,
+        41,
+        42,
+        14,
+        32
       ]
     },
     {
@@ -419,26 +194,11 @@
       "query": "Who did Debbie play in The Debbie Reynolds Show?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 15,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 106,
-          "src": "text"
-        },
-        {
-          "seg": 107,
-          "src": "text"
-        },
-        {
-          "seg": 95,
-          "src": "text"
-        },
-        {
-          "seg": 116,
-          "src": "text"
-        }
+        15,
+        22,
+        32,
+        16,
+        38
       ]
     },
     {
@@ -446,26 +206,11 @@
       "query": "Which character did Betty White play in The Betty White Show?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 109,
-          "src": "text"
-        },
-        {
-          "seg": 16,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 106,
-          "src": "text"
-        },
-        {
-          "seg": 111,
-          "src": "text"
-        },
-        {
-          "seg": 22,
-          "src": "doc_sum"
-        }
+        16,
+        22,
+        15,
+        36,
+        12
       ]
     },
     {
@@ -473,80 +218,35 @@
       "query": "Ed Gagliardi, Al Greenwood and Dennis Elliot have all been in which group?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 113,
-          "src": "text"
-        },
-        {
-          "seg": 112,
-          "src": "text"
-        },
-        {
-          "seg": 17,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 207,
-          "src": "text"
-        },
-        {
-          "seg": 202,
-          "src": "text"
-        }
+        17,
+        32,
+        40,
+        22,
+        16
       ]
     },
     {
       "doc_idx": 18,
       "query": "Which Julie won an Oscar for Darling in 1965 and was Oscar nominated in 19987 for Afterglow?",
-      "rank": 9,
+      "rank": 34,
       "top5": [
-        {
-          "seg": 109,
-          "src": "text"
-        },
-        {
-          "seg": 170,
-          "src": "text"
-        },
-        {
-          "seg": 214,
-          "src": "text"
-        },
-        {
-          "seg": 4,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 43,
-          "src": "doc_sum"
-        }
+        4,
+        43,
+        6,
+        3,
+        17
       ]
     },
     {
       "doc_idx": 19,
       "query": "What was the last name of Judy in radio's A Date With Judy series?",
-      "rank": 0,
+      "rank": 7,
       "top5": [
-        {
-          "seg": 120,
-          "src": "text"
-        },
-        {
-          "seg": 122,
-          "src": "text"
-        },
-        {
-          "seg": 123,
-          "src": "text"
-        },
-        {
-          "seg": 86,
-          "src": "text"
-        },
-        {
-          "seg": 207,
-          "src": "text"
-        }
+        32,
+        22,
+        43,
+        41,
+        16
       ]
     },
     {
@@ -554,53 +254,23 @@
       "query": "\"Who wrote the line, \"\"Do not go gentle into that good night?\"",
       "rank": 0,
       "top5": [
-        {
-          "seg": 129,
-          "src": "text"
-        },
-        {
-          "seg": 126,
-          "src": "text"
-        },
-        {
-          "seg": 128,
-          "src": "text"
-        },
-        {
-          "seg": 20,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 59,
-          "src": "text"
-        }
+        20,
+        41,
+        42,
+        27,
+        32
       ]
     },
     {
       "doc_idx": 21,
       "query": "Where was golf's 1977 US Open held?",
-      "rank": 0,
+      "rank": 1,
       "top5": [
-        {
-          "seg": 130,
-          "src": "text"
-        },
-        {
-          "seg": 236,
-          "src": "text"
-        },
-        {
-          "seg": 109,
-          "src": "text"
-        },
-        {
-          "seg": 163,
-          "src": "text"
-        },
-        {
-          "seg": 43,
-          "src": "doc_sum"
-        }
+        43,
+        21,
+        12,
+        28,
+        4
       ]
     },
     {
@@ -608,26 +278,11 @@
       "query": "Who was the first MVP in a Super Bowl to be on the losing side?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 22,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 135,
-          "src": "text"
-        },
-        {
-          "seg": 136,
-          "src": "text"
-        },
-        {
-          "seg": 188,
-          "src": "text"
-        },
-        {
-          "seg": 72,
-          "src": "text"
-        }
+        22,
+        32,
+        41,
+        42,
+        4
       ]
     },
     {
@@ -635,26 +290,11 @@
       "query": "The Curragh is in which country?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 140,
-          "src": "text"
-        },
-        {
-          "seg": 23,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 141,
-          "src": "text"
-        },
-        {
-          "seg": 206,
-          "src": "text"
-        },
-        {
-          "seg": 154,
-          "src": "text"
-        }
+        23,
+        4,
+        32,
+        42,
+        36
       ]
     },
     {
@@ -662,53 +302,23 @@
       "query": "In which country is the Bendorf bridge?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 143,
-          "src": "text"
-        },
-        {
-          "seg": 24,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 144,
-          "src": "text"
-        },
-        {
-          "seg": 145,
-          "src": "text"
-        },
-        {
-          "seg": 206,
-          "src": "text"
-        }
+        24,
+        4,
+        32,
+        22,
+        42
       ]
     },
     {
       "doc_idx": 25,
       "query": "In Makin' It, who was the John Travolta-type character?",
-      "rank": 7,
+      "rank": 11,
       "top5": [
-        {
-          "seg": 207,
-          "src": "text"
-        },
-        {
-          "seg": 128,
-          "src": "text"
-        },
-        {
-          "seg": 206,
-          "src": "text"
-        },
-        {
-          "seg": 61,
-          "src": "text"
-        },
-        {
-          "seg": 77,
-          "src": "text"
-        }
+        6,
+        32,
+        4,
+        16,
+        12
       ]
     },
     {
@@ -716,26 +326,11 @@
       "query": "In which sport did Andy Thomson become a world champion?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 150,
-          "src": "text"
-        },
-        {
-          "seg": 26,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 151,
-          "src": "text"
-        },
-        {
-          "seg": 100,
-          "src": "text"
-        },
-        {
-          "seg": 106,
-          "src": "text"
-        }
+        26,
+        22,
+        15,
+        1,
+        41
       ]
     },
     {
@@ -743,26 +338,11 @@
       "query": "A newbie is a new what?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 155,
-          "src": "text"
-        },
-        {
-          "seg": 154,
-          "src": "text"
-        },
-        {
-          "seg": 74,
-          "src": "text"
-        },
-        {
-          "seg": 27,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 233,
-          "src": "text"
-        }
+        27,
+        42,
+        4,
+        22,
+        48
       ]
     },
     {
@@ -770,53 +350,23 @@
       "query": "I'm Gonna Wash That Man Right Out of My Hair came from which show?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 158,
-          "src": "text"
-        },
-        {
-          "seg": 157,
-          "src": "text"
-        },
-        {
-          "seg": 28,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 86,
-          "src": "text"
-        },
-        {
-          "seg": 32,
-          "src": "doc_sum"
-        }
+        28,
+        32,
+        16,
+        1,
+        43
       ]
     },
     {
       "doc_idx": 29,
       "query": "Which musical was Lerner and Loewe's last major success, in 1960?",
-      "rank": 0,
+      "rank": 4,
       "top5": [
-        {
-          "seg": 160,
-          "src": "text"
-        },
-        {
-          "seg": 162,
-          "src": "text"
-        },
-        {
-          "seg": 163,
-          "src": "text"
-        },
-        {
-          "seg": 170,
-          "src": "text"
-        },
-        {
-          "seg": 4,
-          "src": "doc_sum"
-        }
+        4,
+        12,
+        6,
+        42,
+        29
       ]
     },
     {
@@ -824,26 +374,11 @@
       "query": "Which city hosts the Charlie Parker Jazz Festival?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 165,
-          "src": "text"
-        },
-        {
-          "seg": 30,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 166,
-          "src": "text"
-        },
-        {
-          "seg": 119,
-          "src": "text"
-        },
-        {
-          "seg": 18,
-          "src": "doc_sum"
-        }
+        30,
+        18,
+        44,
+        15,
+        29
       ]
     },
     {
@@ -851,53 +386,23 @@
       "query": "What was advertised by Rod Stewart and Tina Turner's version of It Takes Two?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 169,
-          "src": "text"
-        },
-        {
-          "seg": 31,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 170,
-          "src": "text"
-        },
-        {
-          "seg": 168,
-          "src": "text"
-        },
-        {
-          "seg": 190,
-          "src": "text"
-        }
+        31,
+        32,
+        28,
+        15,
+        1
       ]
     },
     {
       "doc_idx": 32,
       "query": "Who had a 1980s No 1 hit with Shakedown?",
-      "rank": 34,
+      "rank": 13,
       "top5": [
-        {
-          "seg": 94,
-          "src": "text"
-        },
-        {
-          "seg": 4,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 72,
-          "src": "text"
-        },
-        {
-          "seg": 214,
-          "src": "text"
-        },
-        {
-          "seg": 130,
-          "src": "text"
-        }
+        4,
+        43,
+        12,
+        17,
+        3
       ]
     },
     {
@@ -905,26 +410,11 @@
       "query": "On which river does Verona stand?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 177,
-          "src": "text"
-        },
-        {
-          "seg": 144,
-          "src": "text"
-        },
-        {
-          "seg": 175,
-          "src": "text"
-        },
-        {
-          "seg": 176,
-          "src": "text"
-        },
-        {
-          "seg": 126,
-          "src": "text"
-        }
+        33,
+        36,
+        1,
+        28,
+        24
       ]
     },
     {
@@ -932,26 +422,11 @@
       "query": "Which British actress won the Hampstead and Highgate seat for Labour in the 1992 General Election?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 34,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 179,
-          "src": "text"
-        },
-        {
-          "seg": 181,
-          "src": "text"
-        },
-        {
-          "seg": 180,
-          "src": "text"
-        },
-        {
-          "seg": 118,
-          "src": "text"
-        }
+        34,
+        43,
+        22,
+        12,
+        32
       ]
     },
     {
@@ -959,26 +434,11 @@
       "query": "Which political commentator has presented both Weekend World and A Week in Politics?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 182,
-          "src": "text"
-        },
-        {
-          "seg": 35,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 97,
-          "src": "text"
-        },
-        {
-          "seg": 32,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 26,
-          "src": "doc_sum"
-        }
+        35,
+        22,
+        32,
+        26,
+        34
       ]
     },
     {
@@ -986,26 +446,11 @@
       "query": "\"Who said: \"\"The customer is always right\"\"?\"",
       "rank": 0,
       "top5": [
-        {
-          "seg": 36,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 186,
-          "src": "text"
-        },
-        {
-          "seg": 188,
-          "src": "text"
-        },
-        {
-          "seg": 27,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 156,
-          "src": "text"
-        }
+        36,
+        27,
+        42,
+        44,
+        32
       ]
     },
     {
@@ -1013,26 +458,11 @@
       "query": "Who was the king of rock and roll?",
       "rank": 2,
       "top5": [
-        {
-          "seg": 207,
-          "src": "text"
-        },
-        {
-          "seg": 72,
-          "src": "text"
-        },
-        {
-          "seg": 37,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 78,
-          "src": "text"
-        },
-        {
-          "seg": 83,
-          "src": "text"
-        }
+        22,
+        32,
+        37,
+        6,
+        4
       ]
     },
     {
@@ -1040,26 +470,11 @@
       "query": "Where would you find the pisiform bone?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 194,
-          "src": "text"
-        },
-        {
-          "seg": 196,
-          "src": "text"
-        },
-        {
-          "seg": 38,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 195,
-          "src": "text"
-        },
-        {
-          "seg": 161,
-          "src": "text"
-        }
+        38,
+        22,
+        36,
+        34,
+        41
       ]
     },
     {
@@ -1067,53 +482,23 @@
       "query": "In nature, what does a dendrologist study?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 198,
-          "src": "text"
-        },
-        {
-          "seg": 197,
-          "src": "text"
-        },
-        {
-          "seg": 39,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 75,
-          "src": "text"
-        },
-        {
-          "seg": 89,
-          "src": "text"
-        }
+        39,
+        41,
+        11,
+        40,
+        33
       ]
     },
     {
       "doc_idx": 40,
       "query": "Which Thomas Harris novel was the top selling adult fiction novel of the year 2000 in the UK?",
-      "rank": 2,
+      "rank": 11,
       "top5": [
-        {
-          "seg": 42,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 61,
-          "src": "text"
-        },
-        {
-          "seg": 200,
-          "src": "text"
-        },
-        {
-          "seg": 72,
-          "src": "text"
-        },
-        {
-          "seg": 233,
-          "src": "text"
-        }
+        42,
+        43,
+        12,
+        22,
+        3
       ]
     },
     {
@@ -1121,26 +506,11 @@
       "query": "Which drink is sometimes referred to as Adam's ale?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 205,
-          "src": "text"
-        },
-        {
-          "seg": 41,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 206,
-          "src": "text"
-        },
-        {
-          "seg": 207,
-          "src": "text"
-        },
-        {
-          "seg": 188,
-          "src": "text"
-        }
+        41,
+        32,
+        36,
+        49,
+        1
       ]
     },
     {
@@ -1148,26 +518,11 @@
       "query": "Which group had a top ten hit in 2000 called Cartoon Heroes?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 42,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 210,
-          "src": "text"
-        },
-        {
-          "seg": 170,
-          "src": "text"
-        },
-        {
-          "seg": 12,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 79,
-          "src": "text"
-        }
+        42,
+        12,
+        3,
+        43,
+        8
       ]
     },
     {
@@ -1175,80 +530,35 @@
       "query": "Who presented the childrens TV show Animal Magic from 1962 to 1983?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 43,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 214,
-          "src": "text"
-        },
-        {
-          "seg": 146,
-          "src": "text"
-        },
-        {
-          "seg": 109,
-          "src": "text"
-        },
-        {
-          "seg": 92,
-          "src": "text"
-        }
+        43,
+        25,
+        4,
+        12,
+        45
       ]
     },
     {
       "doc_idx": 44,
       "query": "Which George had top ten hits in the 1980s with Give Me The Night and In Your Eyes?",
-      "rank": 13,
+      "rank": 12,
       "top5": [
-        {
-          "seg": 72,
-          "src": "text"
-        },
-        {
-          "seg": 170,
-          "src": "text"
-        },
-        {
-          "seg": 77,
-          "src": "text"
-        },
-        {
-          "seg": 130,
-          "src": "text"
-        },
-        {
-          "seg": 146,
-          "src": "text"
-        }
+        3,
+        4,
+        43,
+        32,
+        42
       ]
     },
     {
       "doc_idx": 45,
       "query": "What is the number of the court at Wimbledon which is nicknamed The Graveyard Of Champions due to a large number or seeded players being beaten on it by lower ranked players?",
-      "rank": 0,
+      "rank": 24,
       "top5": [
-        {
-          "seg": 221,
-          "src": "text"
-        },
-        {
-          "seg": 98,
-          "src": "text"
-        },
-        {
-          "seg": 100,
-          "src": "text"
-        },
-        {
-          "seg": 188,
-          "src": "text"
-        },
-        {
-          "seg": 22,
-          "src": "doc_sum"
-        }
+        22,
+        32,
+        42,
+        41,
+        36
       ]
     },
     {
@@ -1256,80 +566,35 @@
       "query": "With which re-released song did The Bluebells have a number one hit in 1993?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 226,
-          "src": "text"
-        },
-        {
-          "seg": 46,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 42,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 227,
-          "src": "text"
-        },
-        {
-          "seg": 225,
-          "src": "text"
-        }
+        46,
+        42,
+        4,
+        12,
+        6
       ]
     },
     {
       "doc_idx": 47,
       "query": "What was the name of the act comprising of Gemma Abbey and Chris Cromby who became the first UK act to receive no points overall?",
-      "rank": 1,
+      "rank": 6,
       "top5": [
-        {
-          "seg": 207,
-          "src": "text"
-        },
-        {
-          "seg": 233,
-          "src": "text"
-        },
-        {
-          "seg": 22,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 206,
-          "src": "text"
-        },
-        {
-          "seg": 54,
-          "src": "text"
-        }
+        22,
+        32,
+        41,
+        43,
+        34
       ]
     },
     {
       "doc_idx": 48,
       "query": "Which England international footballer started his footballing career at Canadian club Calgary Foothills FC?",
-      "rank": 0,
+      "rank": 4,
       "top5": [
-        {
-          "seg": 235,
-          "src": "text"
-        },
-        {
-          "seg": 237,
-          "src": "text"
-        },
-        {
-          "seg": 1,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 239,
-          "src": "text"
-        },
-        {
-          "seg": 238,
-          "src": "text"
-        }
+        1,
+        26,
+        18,
+        22,
+        48
       ]
     },
     {
@@ -1337,26 +602,11 @@
       "query": "Chaetophobia is the fear of what?",
       "rank": 0,
       "top5": [
-        {
-          "seg": 240,
-          "src": "text"
-        },
-        {
-          "seg": 49,
-          "src": "doc_sum"
-        },
-        {
-          "seg": 207,
-          "src": "text"
-        },
-        {
-          "seg": 242,
-          "src": "text"
-        },
-        {
-          "seg": 206,
-          "src": "text"
-        }
+        49,
+        41,
+        22,
+        32,
+        43
       ]
     }
   ]
