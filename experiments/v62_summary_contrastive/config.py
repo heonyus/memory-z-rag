@@ -10,7 +10,7 @@ CONFIG = {
     "lr": 5.0,
     "epochs": 3000,
     "contrastive_lambda": 0.1,
-    "early_stop_patience": 100,
+    "early_stop_patience": 0,
     "checkpoint_every": 500,
 
     "save_dir": "experiments/v62_summary_contrastive/runs",

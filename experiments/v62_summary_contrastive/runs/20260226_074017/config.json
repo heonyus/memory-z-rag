@@ -11,7 +11,7 @@
   "contrastive_lambda": 0.1,
   "contrastive_temperature": 0.07,
   "checkpoint_every": 500,
-  "early_stop_patience": 100,
+  "early_stop_patience": 0,
   "max_new_tokens": 128,
   "seed": 42,
   "save_dir": "experiments/v62_summary_contrastive/runs"
