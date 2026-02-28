@@ -39,6 +39,7 @@ CONFIG = {
     "contrastive_lambda": 0.1,
     "contrastive_temperature": 0.07,
     "contrastive_loss_type": "infonce",   # "sigmoid" | "infonce"
+    "contrastive_num_negatives": 32,     # sigmoid용 negative sampling 수
     "checkpoint_every": 50,
     "early_stop_patience": 0,   # 0이면 비활성화
 

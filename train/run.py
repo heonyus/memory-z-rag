@@ -130,10 +130,13 @@ def main():
             if content_matrix is not None:
                 z_embed = model.z_embeddings(idx_tensor).squeeze(0)
                 projected = model.project_z(z_embed)
-                con_loss = con_loss_fn(
-                    projected.unsqueeze(0), content_matrix,
-                    config["contrastive_temperature"], label_idx=seg_idx,
+                con_kwargs = dict(
+                    temperature=config["contrastive_temperature"],
+                    label_idx=seg_idx,
                 )
+                if loss_type == "sigmoid":
+                    con_kwargs["num_negatives"] = config.get("contrastive_num_negatives", 32)
+                con_loss = con_loss_fn(projected.unsqueeze(0), content_matrix, **con_kwargs)
                 total_loss = nll_loss + config["contrastive_lambda"] * con_loss
                 epoch_con_losses.append(con_loss.item())
 

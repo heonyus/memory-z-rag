@@ -1,5 +1,6 @@
 """InfoNCE / Sigmoid contrastive loss + content matrix 생성."""
 
+import random
 import torch
 import torch.nn.functional as F
 
@@ -13,19 +14,27 @@ def contrastive_loss(query_embeds, doc_embeds, temperature=0.07, label_idx=0):
     return F.cross_entropy(logits, labels)
 
 
-def contrastive_loss_sigmoid(query_embeds, doc_embeds, temperature=0.07, label_idx=0):
-    """Sigmoid (SigLIP 스타일) contrastive loss.
+def contrastive_loss_sigmoid(query_embeds, doc_embeds, temperature=0.07,
+                             label_idx=0, num_negatives=32):
+    """Sigmoid (SigLIP 스타일) contrastive loss + negative sampling.
 
-    각 (query, doc) 쌍에 대해 독립적으로 BCE를 계산.
+    positive 1개 + random negative K개만 사용.
     InfoNCE와 달리 softmax가 없어서 새 문서 추가 시 기존 z 분포에 영향 없음.
     """
+    n = doc_embeds.shape[0]
     query_norm = F.normalize(query_embeds.float(), dim=1)
     doc_norm = F.normalize(doc_embeds.float(), dim=1)
-    logits = (query_norm @ doc_norm.T) / temperature
 
-    # targets: label_idx만 positive (1), 나머지 negative (0)
+    # positive + sampled negatives
+    neg_pool = [i for i in range(n) if i != label_idx]
+    k = min(num_negatives, len(neg_pool))
+    neg_idx = random.sample(neg_pool, k)
+    sample_idx = [label_idx] + neg_idx
+    sampled_docs = doc_norm[sample_idx]
+
+    logits = (query_norm @ sampled_docs.T) / temperature
     targets = torch.zeros_like(logits)
-    targets[0, label_idx] = 1.0
+    targets[0, 0] = 1.0  # 첫 번째가 positive
 
     return F.binary_cross_entropy_with_logits(logits, targets)
 
