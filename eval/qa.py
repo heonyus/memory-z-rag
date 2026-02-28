@@ -12,8 +12,7 @@ load_dotenv()
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from config import load_config
-from model import ZModel
-from data import load_csv, tokenize_and_segment
+from eval.model_loader import load_eval_model
 from eval.qa_utils import best_metrics, build_qa_prompt, call_gemini_with_retry
 
 
@@ -27,20 +26,8 @@ def main():
     cfg = load_config(args.config)
     top_k_list = [int(k) for k in args.top_k.split(",")]
 
-    # 데이터 로드
-    from transformers import AutoTokenizer
-    tokenizer = AutoTokenizer.from_pretrained(cfg["llm_name"], trust_remote_code=True)
-    tokenizer.pad_token = tokenizer.eos_token
-    texts = load_csv(cfg["csv_path"], cfg["text_column"], cfg["num_docs"])
-    seg_ids, seg_texts, seg_to_doc = tokenize_and_segment(texts, tokenizer, cfg["segment_len"])
-
-    # 모델 + 체크포인트
-    model = ZModel(cfg["llm_name"], num_segments=len(seg_ids))
-    ckpt = torch.load(args.checkpoint, map_location="cpu")
-    model.z_embeddings.load_state_dict(ckpt["z_embeddings"])
-    model.eval()
-
-    z_matrix = F.normalize(model.z_embeddings.weight.data.float(), dim=1)
+    # 모델 + 데이터 로드
+    model, tokenizer, z_matrix, seg_ids, seg_texts, seg_to_doc = load_eval_model(args.checkpoint, cfg)
 
     # query-doc-answers 로드
     entries = []

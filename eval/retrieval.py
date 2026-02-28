@@ -11,8 +11,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from config import load_config
-from model import ZModel
-from data import load_csv, tokenize_and_segment
+from eval.model_loader import load_eval_model
 
 
 def get_query_embedding(query, tokenizer, llm, device):
@@ -33,22 +32,8 @@ def main():
     cfg = load_config(args.config)
     top_k = [int(k) for k in args.top_k.split(",")]
 
-    # 데이터 로드 (tokenizer만 따로 로드해서 모델 1회만 생성)
-    from transformers import AutoTokenizer
-    tokenizer = AutoTokenizer.from_pretrained(cfg["llm_name"], trust_remote_code=True)
-    tokenizer.pad_token = tokenizer.eos_token
-    texts = load_csv(cfg["csv_path"], cfg["text_column"], cfg["num_docs"])
-    seg_ids, seg_texts, seg_to_doc = tokenize_and_segment(texts, tokenizer, cfg["segment_len"])
-
-    # 모델 + 체크포인트 (1회만 로드)
-    model = ZModel(cfg["llm_name"], num_segments=len(seg_ids))
-    ckpt = torch.load(args.checkpoint, map_location="cpu")
-    model.z_embeddings.load_state_dict(ckpt["z_embeddings"])
-    model.eval()
-
-    # z-embedding matrix (normalized)
-    z_matrix = model.z_embeddings.weight.data.float()
-    z_matrix = F.normalize(z_matrix, dim=1)
+    # 모델 + 데이터 로드
+    model, tokenizer, z_matrix, seg_ids, seg_texts, seg_to_doc = load_eval_model(args.checkpoint, cfg)
 
     # query-doc pairs 로드
     pairs = []  # (doc_idx, query_str)

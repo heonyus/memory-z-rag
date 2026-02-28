@@ -38,8 +38,19 @@ CONFIG = {
     "grad_clip": 1.0,
     "contrastive_lambda": 0.1,
     "contrastive_temperature": 0.07,
+    "contrastive_loss_type": "infonce",   # "sigmoid" | "infonce"
     "checkpoint_every": 50,
     "early_stop_patience": 0,   # 0이면 비활성화
+
+    # projector (MLP)
+    "projector_hidden": 0,       # 0이면 비활성화 (하위 호환)
+    "projector_layers": 1,
+    "projector_dropout": 0.0,
+    "use_projected_z": False,    # retrieval 시 projected z 사용
+
+    # continual learning
+    "freeze_projector": False,   # True면 MLP freeze
+    "freeze_base_z": False,      # True면 resume 시 기존 z 고정
 
     # 평가
     "max_new_tokens": 128,

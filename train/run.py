@@ -22,11 +22,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from config import load_config
 from model import ZModel
 from data import load_csv, tokenize_and_segment
-from loss import contrastive_loss, build_content_matrix
-
-
-def save_checkpoint(model, config, path, epoch=0):
-    torch.save({"z_embeddings": model.z_embeddings.state_dict(), "config": config, "epoch": epoch}, path)
+from loss import contrastive_loss, contrastive_loss_sigmoid, build_content_matrix
+from train.checkpoint import save_checkpoint, load_checkpoint
 
 
 def main():
@@ -57,32 +54,46 @@ def main():
     tokenizer.pad_token = tokenizer.eos_token
     seg_ids, seg_texts, seg_to_doc = tokenize_and_segment(texts, tokenizer, config["segment_len"])
 
-    # 모델 생성 (정확한 세그먼트 수로)
-    model = ZModel(config["llm_name"], num_segments=len(seg_ids))
+    # 모델 생성
+    model = ZModel(
+        config["llm_name"], num_segments=len(seg_ids),
+        projector_hidden=config.get("projector_hidden", 0),
+        projector_layers=config.get("projector_layers", 1),
+        projector_dropout=config.get("projector_dropout", 0.0),
+    )
     log.info(f"{len(texts)} docs → {len(seg_ids)} segments")
 
-    # resume: 체크포인트에서 z_embeddings 로드 + start_epoch 설정
+    # resume: 체크포인트에서 z_embeddings + projector 로드
     start_epoch = 0
+    frozen_prefix = 0
     if args.resume:
-        ckpt = torch.load(args.resume, map_location="cpu")
-        model.z_embeddings.load_state_dict(ckpt["z_embeddings"])
-        start_epoch = ckpt.get("epoch", 0) + 1
-        log.info(f"Resumed from {args.resume}, starting at epoch {start_epoch}")
+        start_epoch, frozen_prefix = load_checkpoint(args.resume, model, config)
+        log.info(f"Resumed from {args.resume}, epoch={start_epoch}, frozen_prefix={frozen_prefix}")
+
+    # projector freeze (continual learning)
+    freeze_projector = config.get("freeze_projector", False)
+    if freeze_projector:
+        for p in model.projector.parameters():
+            p.requires_grad = False
+
+    # 학습 가능한 파라미터 모으기 (optimizer + grad clip에서 공유)
+    trainable_params = list(model.z_embeddings.parameters())
+    if not freeze_projector:
+        trainable_params += list(model.projector.parameters())
 
     # contrastive loss용 content matrix
     content_matrix = None
     if config["contrastive_lambda"] > 0:
         content_matrix = build_content_matrix(model.llm, seg_ids)
 
-    # optimizer
+    # optimizer + scheduler
     OptimizerClass = torch.optim.AdamW if config["optimizer"] == "adamw" else torch.optim.SGD
     optimizer = OptimizerClass(
-        model.z_embeddings.parameters(),
+        trainable_params,
         lr=config["lr"],
         weight_decay=config.get("weight_decay", 0.0),
     )
 
-    # warmup scheduler
     scheduler = None
     warmup_iters = config.get("warmup_iters", 0)
     if warmup_iters > 0:
@@ -90,6 +101,10 @@ def main():
         scheduler = torch.optim.lr_scheduler.LinearLR(
             optimizer, start_factor=start_factor, end_factor=1.0, total_iters=warmup_iters,
         )
+
+    # contrastive loss 함수 선택
+    loss_type = config.get("contrastive_loss_type", "infonce")
+    con_loss_fn = contrastive_loss_sigmoid if loss_type == "sigmoid" else contrastive_loss
 
     best_nll = float("inf")
     patience_counter = 0
@@ -114,15 +129,21 @@ def main():
             total_loss = nll_loss
             if content_matrix is not None:
                 z_embed = model.z_embeddings(idx_tensor).squeeze(0)
-                con_loss = contrastive_loss(
-                    z_embed.unsqueeze(0), content_matrix, config["contrastive_temperature"],
-                    label_idx=seg_idx,
+                projected = model.project_z(z_embed)
+                con_loss = con_loss_fn(
+                    projected.unsqueeze(0), content_matrix,
+                    config["contrastive_temperature"], label_idx=seg_idx,
                 )
                 total_loss = nll_loss + config["contrastive_lambda"] * con_loss
                 epoch_con_losses.append(con_loss.item())
 
             total_loss.backward()
-            clip_grad_norm_(model.z_embeddings.parameters(), config["grad_clip"])
+
+            # frozen prefix: 기존 z의 gradient 제거
+            if frozen_prefix > 0 and model.z_embeddings.weight.grad is not None:
+                model.z_embeddings.weight.grad[:frozen_prefix].zero_()
+
+            clip_grad_norm_(trainable_params, config["grad_clip"])
             optimizer.step()
             epoch_nll_losses.append(nll_loss.item())
 
@@ -137,20 +158,21 @@ def main():
             msg += f"  con={avg_con:.4f}"
         log.info(msg)
 
+        n_seg = len(seg_ids)
         if avg_nll < best_nll:
             best_nll = avg_nll
             patience_counter = 0
-            save_checkpoint(model, config, run_dir / "best.pt", epoch)
+            save_checkpoint(model, config, run_dir / "best.pt", epoch, n_seg, frozen_prefix)
         else:
             patience_counter += 1
 
         latest_path = run_dir / f"latest_epoch{epoch}.pt"
         for old in run_dir.glob("latest_epoch*.pt"):
             old.unlink()
-        save_checkpoint(model, config, latest_path, epoch)
+        save_checkpoint(model, config, latest_path, epoch, n_seg, frozen_prefix)
 
         if config["checkpoint_every"] and (epoch + 1) % config["checkpoint_every"] == 0:
-            save_checkpoint(model, config, run_dir / f"epoch{epoch+1}.pt", epoch)
+            save_checkpoint(model, config, run_dir / f"epoch{epoch+1}.pt", epoch, n_seg, frozen_prefix)
 
         # early stopping
         if patience > 0 and patience_counter >= patience:
