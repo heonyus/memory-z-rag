@@ -1,7 +1,7 @@
-"""ZModel: frozen LLM + learnable z_embeddings.
+"""ZModel: frozen LLM + learnable z_embeddings + optional MLP projector.
 
 LLM은 4bit quantization으로 로드하고, 파라미터를 전부 freeze.
-학습 가능한 파라미터는 z_embeddings (nn.Embedding) 뿐이다.
+학습 가능한 파라미터는 z_embeddings (nn.Embedding)와 projector (MLP, 옵션).
 """
 
 import torch
@@ -9,10 +9,13 @@ import torch.nn as nn
 import torch.nn.functional as F
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 
+from model.projector import build_projector
+
 
 class ZModel(nn.Module):
 
-    def __init__(self, llm_name, num_segments, num_z=1, device="cuda"):
+    def __init__(self, llm_name, num_segments, num_z=1, device="cuda",
+                 projector_hidden=0, projector_layers=1, projector_dropout=0.0):
         super().__init__()
         self.device = device
         self.num_z = num_z
@@ -45,6 +48,15 @@ class ZModel(nn.Module):
         # z_embeddings: 세그먼트당 하나의 학습 가능한 벡터
         self.z_embeddings = nn.Embedding(num_segments, self.hidden_size).to(device)
         nn.init.normal_(self.z_embeddings.weight, std=0.02)
+
+        # projector: z → input embedding 공간 매핑 (retrieval용)
+        self.projector = build_projector(
+            self.hidden_size, projector_hidden, projector_layers, projector_dropout
+        ).to(device)
+
+    def project_z(self, z_embeds):
+        """z embedding을 projector에 통과시켜 retrieval 공간으로 변환."""
+        return self.projector(z_embeds)
 
     def forward(self, seg_idx, input_ids, attention_mask):
         """Teacher forcing. z + doc[:-1] → doc 예측.
