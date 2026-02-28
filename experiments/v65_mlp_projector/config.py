@@ -14,6 +14,11 @@ CONFIG = {
     "projector_dropout": 0.0,
     "use_projected_z": True,
 
+    # 학습
+    "optimizer": "sgd",
+    "lr": 5.0,
+    "epochs": 3000,
+
     # contrastive
     "contrastive_loss_type": "sigmoid",
     "contrastive_lambda": 0.1,
