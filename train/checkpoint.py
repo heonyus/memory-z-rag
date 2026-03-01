@@ -52,5 +52,9 @@ def load_checkpoint(path, model, config):
     if config.get("freeze_base_z", False):
         frozen_prefix = old_n
 
-    start_epoch = ckpt.get("epoch", 0) + 1
+    # continual learning이면 epoch 0부터 시작
+    if frozen_prefix > 0:
+        start_epoch = 0
+    else:
+        start_epoch = ckpt.get("epoch", 0) + 1
     return start_epoch, frozen_prefix

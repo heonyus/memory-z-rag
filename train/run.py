@@ -37,7 +37,7 @@ def main():
     torch.manual_seed(config["seed"])
 
     # 실행 디렉토리
-    if args.resume:
+    if args.resume and not config.get("freeze_base_z", False):
         run_dir = Path(args.resume).parent
     else:
         run_dir = Path(config["save_dir"]) / datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -48,11 +48,21 @@ def main():
     log.addHandler(fh)
 
     # 데이터 로드 + 세그먼트 분할
-    texts = load_csv(config["csv_path"], config["text_column"], config["num_docs"])
+    texts = load_csv(
+        config["csv_path"], config["text_column"], config["num_docs"],
+        new_text_column=config.get("new_text_column"),
+        base_num_docs=config.get("base_num_docs"),
+        append_column=config.get("append_column"),
+        append_num_docs=config.get("append_num_docs"),
+    )
     from transformers import AutoTokenizer
     tokenizer = AutoTokenizer.from_pretrained(config["llm_name"], trust_remote_code=True)
     tokenizer.pad_token = tokenizer.eos_token
-    seg_ids, seg_texts, seg_to_doc = tokenize_and_segment(texts, tokenizer, config["segment_len"])
+    seg_ids, seg_texts, seg_to_doc = tokenize_and_segment(
+        texts, tokenizer, config["segment_len"],
+        new_segment_len=config.get("new_segment_len"),
+        base_num_docs=config.get("base_num_docs"),
+    )
 
     # 모델 생성
     model = ZModel(
@@ -113,7 +123,7 @@ def main():
     # 학습 루프
     for epoch in range(start_epoch, config["epochs"]):
         model.train()
-        indices = list(range(len(seg_ids)))
+        indices = list(range(frozen_prefix, len(seg_ids)))
         random.shuffle(indices)
         epoch_nll_losses = []
         epoch_con_losses = []
