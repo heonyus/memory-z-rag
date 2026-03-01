@@ -67,7 +67,11 @@ def main():
     text_z, text_s2d = load_z_matrix(args.text_ckpt, args.text_config, tokenizer)
     sum_z, text_z = sum_z.to("cuda"), text_z.to("cuda")
 
-    print(f"summary pool: {sum_z.shape[0]} seg  |  text pool: {text_z.shape[0]} seg")
+    # merged pool: 두 z-matrix를 concat, seg_to_doc도 합침
+    merged_z = torch.cat([sum_z, text_z], dim=0)  # (50+193, 3072)
+    merged_s2d = list(sum_s2d) + list(text_s2d)
+
+    print(f"summary pool: {sum_z.shape[0]} seg  |  text pool: {text_z.shape[0]} seg  |  merged: {merged_z.shape[0]} seg")
 
     # query-doc pairs
     pairs = []
@@ -80,7 +84,7 @@ def main():
 
     # 집계
     top_k = [1, 5, 10, 20]
-    methods = ["sum", "text", "by_score", "by_rank"]
+    methods = ["sum", "text", "by_score", "by_rank", "merged"]
     stats = {m: {"mrr": 0.0, **{k: 0 for k in top_k}} for m in methods}
     examples = []
 
@@ -93,6 +97,7 @@ def main():
         # 각 pool 별도 검색
         sum_rank, sum_score = find_best_rank(sum_z @ q_embed, sum_s2d, doc_idx)
         text_rank, text_score = find_best_rank(text_z @ q_embed, text_s2d, doc_idx)
+        merged_rank, merged_score = find_best_rank(merged_z @ q_embed, merged_s2d, doc_idx)
 
         # by_score: cosine score가 높은 쪽 채택
         # by_rank: rank가 낮은(좋은) 쪽 채택
@@ -111,7 +116,8 @@ def main():
 
         # 집계
         for name, rank in [("sum", sum_rank), ("text", text_rank),
-                           ("by_score", score_rank), ("by_rank", rank_rank)]:
+                           ("by_score", score_rank), ("by_rank", rank_rank),
+                           ("merged", merged_rank)]:
             if rank is not None:
                 stats[name]["mrr"] += 1.0 / (rank + 1)
                 for k in top_k:
@@ -123,6 +129,7 @@ def main():
             "sum_rank": sum_rank, "sum_score": round(sum_score, 4) if sum_score else None,
             "text_rank": text_rank, "text_score": round(text_score, 4) if text_score else None,
             "by_score": score_src, "by_rank": rank_src,
+            "merged_rank": merged_rank, "merged_score": round(merged_score, 4) if merged_score else None,
             "query": query[:80],
         })
         print(f"  doc={doc_idx:2d}  sum={str(sum_rank):>4s}({sum_score:.4f})"
