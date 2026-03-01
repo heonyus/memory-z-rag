@@ -7,7 +7,7 @@
   python -m eval.qa_baseline --retriever dpr
 """
 
-import argparse, ast, csv, json, sys, time
+import argparse, ast, csv, json, re, sys, time
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -18,6 +18,23 @@ from config import load_config
 from data import load_csv, tokenize_and_segment
 from eval.retrievers import build_retriever, PRESETS
 from eval.qa_utils import best_metrics, build_qa_prompt, call_gemini_with_retry
+
+_TOKEN_RE = re.compile(r"[^a-z0-9\s]")
+
+
+def _normalize_answer(text):
+    lowered = text.lower().strip()
+    lowered = _TOKEN_RE.sub(" ", lowered)
+    return " ".join(lowered.split())
+
+
+def _segment_contains_answer(seg_text, answers):
+    seg_norm = _normalize_answer(seg_text)
+    for alias in answers:
+        alias_norm = _normalize_answer(alias)
+        if alias_norm and alias_norm in seg_norm:
+            return True
+    return False
 
 
 def main():
@@ -64,9 +81,9 @@ def main():
         # retrieval
         ranked = retriever.rank(query)
 
-        # best rank for gold doc
-        doc_segs = set(si for si, d in enumerate(seg_to_doc) if d == doc_idx)
-        rank = next((r for r, si in enumerate(ranked) if si in doc_segs), None)
+        # answer-based rank
+        rank = next((r for r, si in enumerate(ranked)
+                     if _segment_contains_answer(seg_texts[si], gold_answers)), None)
 
         # 각 top_k에 대해 Gemini QA
         for k in top_k_list:
