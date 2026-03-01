@@ -1,17 +1,36 @@
 """검색 평가: query → z-embedding cosine similarity로 세그먼트 검색.
 
-각 세그먼트는 독립적으로 학습된 단위. 193개 세그먼트 중에서 검색.
+Answer-based hit 기준 (DPR/Contriever 표준):
+리트리브된 세그먼트에 정답 텍스트가 포함되어 있어야 hit.
 
 실행: python -m eval.retrieval --checkpoint runs/.../best.pt [--config ...]
 """
 
-import argparse, ast, csv, json, sys, torch
+import argparse, ast, csv, json, re, sys, torch
 import torch.nn.functional as F
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from config import load_config
 from eval.model_loader import load_eval_model
+
+_TOKEN_RE = re.compile(r"[^a-z0-9\s]")
+
+
+def _normalize_answer(text):
+    lowered = text.lower().strip()
+    lowered = _TOKEN_RE.sub(" ", lowered)
+    return " ".join(lowered.split())
+
+
+def _segment_contains_answer(seg_text, answers):
+    """DPR 표준: 세그먼트 텍스트에 정답 텍스트가 포함되어 있는지 확인."""
+    seg_norm = _normalize_answer(seg_text)
+    for alias in answers:
+        alias_norm = _normalize_answer(alias)
+        if alias_norm and alias_norm in seg_norm:
+            return True
+    return False
 
 
 def get_query_embedding(query, tokenizer, llm, device):
@@ -35,19 +54,22 @@ def main():
     # 모델 + 데이터 로드
     model, tokenizer, z_matrix, seg_ids, seg_texts, seg_to_doc = load_eval_model(args.checkpoint, cfg)
 
-    # query-doc pairs 로드
+    # query-doc pairs + answers 로드
     pairs = []  # (doc_idx, query_str)
+    all_answers = {}  # doc_idx → list[str]
     with open(cfg["csv_path"], encoding="utf-8") as f:
         for i, row in enumerate(csv.DictReader(f)):
             if i >= cfg["num_docs"]:
                 break
             queries = ast.literal_eval(row["queries"])
+            answers = ast.literal_eval(row["answers"])
+            all_answers[i] = answers
             for q in queries:
                 pairs.append((i, q))
 
     print(f"{len(pairs)} queries, {len(seg_ids)} segments, top_k={top_k}")
 
-    # 검색 평가
+    # 검색 평가 (answer-based hit)
     top_counts = {k: 0 for k in top_k}
     mrr_total = 0.0
     examples = []
@@ -59,11 +81,11 @@ def main():
         scores = z_matrix @ q_embed
         ranked = torch.argsort(scores, descending=True)
 
-        # 해당 doc의 세그먼트 중 가장 높은 rank 찾기
-        doc_seg_set = set(si for si, d in enumerate(seg_to_doc) if d == doc_idx)
+        # answer-based hit: 정답 텍스트가 포함된 세그먼트의 rank 찾기
+        answers = all_answers.get(doc_idx, [])
         rank = None
         for r, seg_idx in enumerate(ranked.tolist()):
-            if seg_idx in doc_seg_set:
+            if _segment_contains_answer(seg_texts[seg_idx], answers):
                 rank = r
                 break
 
