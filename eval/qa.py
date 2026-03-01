@@ -3,7 +3,7 @@
 실행: python -m eval.qa --checkpoint runs/.../best.pt [--config ...]
 """
 
-import argparse, ast, csv, json, sys, time, torch
+import argparse, ast, csv, json, re, sys, time, torch
 import torch.nn.functional as F
 from pathlib import Path
 
@@ -14,6 +14,23 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from config import load_config
 from eval.model_loader import load_eval_model
 from eval.qa_utils import best_metrics, build_qa_prompt, call_gemini_with_retry
+
+_TOKEN_RE = re.compile(r"[^a-z0-9\s]")
+
+
+def _normalize_answer(text):
+    lowered = text.lower().strip()
+    lowered = _TOKEN_RE.sub(" ", lowered)
+    return " ".join(lowered.split())
+
+
+def _segment_contains_answer(seg_text, answers):
+    seg_norm = _normalize_answer(seg_text)
+    for alias in answers:
+        alias_norm = _normalize_answer(alias)
+        if alias_norm and alias_norm in seg_norm:
+            return True
+    return False
 
 
 def main():
@@ -56,9 +73,9 @@ def main():
         scores = z_matrix @ q_embed
         ranked = torch.argsort(scores, descending=True).tolist()
 
-        # best rank for gold doc
-        doc_segs = set(si for si, d in enumerate(seg_to_doc) if d == doc_idx)
-        rank = next((r for r, si in enumerate(ranked) if si in doc_segs), None)
+        # answer-based rank
+        rank = next((r for r, si in enumerate(ranked)
+                     if _segment_contains_answer(seg_texts[si], gold_answers)), None)
 
         # 각 top_k에 대해 Gemini QA
         for k in top_k_list:
